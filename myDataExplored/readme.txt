@@ -1,6 +1,6 @@
 Una dashboard interattiva che consente agli utenti di esplorare e analizzare dataset complessi. La dashboard include funzionalità come filtri interattivi, grafici dinamici e visualizzazioni personalizzabili. Può essere utilizzata per analizzare dati aziendali, dati demografici, dati finanziari, o qualsiasi altro tipo di dati rilevanti.
-Tecnologie Utilizzate
 
+Tecnologie Utilizzate:
     Frontend: React.js, D3.js, Plotly.js
     Backend: Node.js, Express.js
     Database: MongoDB
