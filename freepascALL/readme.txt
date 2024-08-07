@@ -63,8 +63,7 @@ Workflow del Progetto
     Monitoraggio e Analisi: Gli amministratori possono monitorare le performance del sistema e analizzare i dati di vendita attraverso dashboard e grafici.
     Automazione e Deploy: Utilizzando Jenkins, Docker e Kubernetes, l'intero sistema viene automaticamente buildato, testato e deployato su una piattaforma cloud scalabile.
 
-Tecnologie Utilizzate
-
+Tecnologie Utilizzate:
     Backend: Node.js, Express, MongoDB
     Frontend: React, Redux, Bootstrap
     Machine Learning: Python, scikit-learn
