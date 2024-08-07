@@ -1,6 +1,6 @@
 Un sistema di monitoraggio della sicurezza delle applicazioni web che rileva vulnerabilità comuni, monitora le attività sospette e fornisce avvisi in tempo reale. Il sistema utilizza tecnologie come l'analisi statica del codice, il monitoraggio del traffico di rete e l'integrazione con strumenti di sicurezza esistenti.
-Tecnologie Utilizzate
 
+Tecnologie Utilizzate:
     Frontend: React.js
     Backend: Node.js, Express.js
     Database: MongoDB
