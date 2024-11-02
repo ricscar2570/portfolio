@@ -1,1 +1,1 @@
-# Case-Study-HR-Salifort-Motors-
+# Case-Study-HR-Salifort-Motors
