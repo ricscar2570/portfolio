@@ -66,22 +66,6 @@ Project Structure
 
 plaintext
 
-.
-├── README.md                   # Project documentation
-├── src/
-│   ├── main.dpr                # Main Delphi project file
-│   ├── DocumentiDB.pas         # Database setup and document management
-│   ├── OCRModule.pas           # OCR and Tesseract integration
-│   ├── Categorization.pas      # Document categorization logic
-│   ├── ExportModule.pas        # DOCX and PDF export
-│   └── UI/
-│       ├── MainForm.pas        # Main user interface
-│       ├── SearchResults.pas   # Search results display
-│       └── Components/         # Custom UI components
-├── assets/
-│   ├── demo_screenshot1.png    # Screenshot of app in use
-│   ├── demo_screenshot2.png    # Search results demo
-└── Documenti.db                # SQLite database file (auto-generated)
 
 🛠 Core Functionalities
 1. OCR and Document Insertion
