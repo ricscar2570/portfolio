@@ -29,12 +29,11 @@ Employee turnover can be costly and disruptive for organizations. This project e
 
 ### 1. Data Loading and Preprocessing
 
-```python
 import pandas as pd
 import numpy as np
 data = pd.read_csv("HR_comma_sep.csv")
 
-2. Data Visualization
+### 2. Data Visualization **
 
 We visualize key features like Satisfaction Level, Average Monthly Hours, and Number of Projects.
 
@@ -46,7 +45,7 @@ sns.histplot(data['average_montly_hours'], kde=True)
 plt.title('Distribution of Average Monthly Hours')
 plt.show()
 
-3. Feature Engineering
+### 3. Feature Engineering
 
 Convert categorical features to dummy variables, handle missing values, and standardize numeric features for model compatibility.
 
@@ -55,7 +54,7 @@ data = pd.get_dummies(data, drop_first=True)
 scaler = StandardScaler()
 scaled_data = scaler.fit_transform(data)
 
-4. Model Training
+### 4. Model Training
 
 We train a Random Forest Classifier and Logistic Regression model.
 
@@ -63,7 +62,7 @@ from sklearn.ensemble import RandomForestClassifier
 rf_model = RandomForestClassifier(random_state=42)
 rf_model.fit(X_train_scaled, y_train)
 
-🧪 Model Performance
+### 🧪 Model Performance
 
 The models are evaluated using the following metrics:
 
@@ -73,7 +72,7 @@ The models are evaluated using the following metrics:
     F1 Score
     ROC AUC Score
 
-Example output:
+### Example output:
 
 Accuracy: 0.9877
 Precision: 0.9855
@@ -81,7 +80,7 @@ Recall: 0.9618
 F1 Score: 0.9735
 ROC AUC Score: 0.9893
 
-Confusion Matrix
+### Confusion Matrix
 
 📈 Feature Importance
 
@@ -89,31 +88,30 @@ The Random Forest model provides insights into feature importance, helping us id
 
 📊 Results and Analysis
 
-Our analysis shows that:
+### Our analysis shows that:
 
     Satisfaction Level: Strongly influences retention, with lower satisfaction levels indicating higher turnover.
     Number of Projects and Average Monthly Hours: Significant factors in predicting employee retention.
 
 This analysis serves as a foundation for HR departments to prioritize efforts in improving employee satisfaction and retention.
-🛠️ Tech Stack
+### 🛠️ Tech Stack
 
     Python (Pandas, Numpy, Scikit-Learn, Seaborn, Matplotlib)
     Machine Learning Models: Random Forest, Logistic Regression
     Visualization: Heatmaps, Distribution Plots, Feature Importances
 
-📄 Requirements
+### 📄 Requirements
 
 To run this project, you’ll need to install the following libraries:
 
 pip install pandas numpy scikit-learn matplotlib seaborn
 
-🔗 License
+### 🔗 License
 
 This project is licensed under the MIT License.
-📫 Contact
+### 📫 Contact
 
-For any questions, reach out to Your Name.
+For any questions, reach out to Riccardo Scaringi.
 
 Enjoy exploring the Employee Retention Analysis! Let's predict and prevent attrition before it happens! 💼
-data.info()
 
