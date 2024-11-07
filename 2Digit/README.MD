@@ -55,7 +55,7 @@ Usage
 
 🔍 Project Structure
 
-.
+
 ├── README.md                   # Project documentation
 ├── src/
 │   ├── main.dpr                # Main Delphi project file
