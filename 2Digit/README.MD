@@ -56,21 +56,21 @@ Usage
 🔍 Project Structure
 
 
-├── README.md                   # Project documentation
+├── README.md                   
 ├── src/
-│   ├── main.dpr                # Main Delphi project file
-│   ├── DocumentiDB.pas         # Database and document management
-│   ├── OCRModule.pas           # OCR and Tesseract integration
-│   ├── Categorization.pas      # Automatic categorization logic
-│   ├── ExportModule.pas        # Export functionality for DOCX and PDF
+│   ├── main.dpr                
+│   ├── DocumentiDB.pas        
+│   ├── OCRModule.pas          
+│   ├── Categorization.pas     
+│   ├── ExportModule.pas        
 │   └── UI/
-│       ├── MainForm.pas        # Main user interface
-│       ├── SearchResults.pas   # Search results UI
-│       └── Components/         # Custom components
+│       ├── MainForm.pas        
+│       ├── SearchResults.pas   
+│       └── Components/         
 ├── assets/
-│   ├── demo_screenshot1.png    # App screenshot example
-│   ├── demo_screenshot2.png    # Search functionality demo
-└── Documenti.db                # SQLite database file (auto-generated)
+│   ├── demo_screenshot1.png    
+│   ├── demo_screenshot2.png    
+└── Documenti.db               
 
 🖥 Screenshots
 
