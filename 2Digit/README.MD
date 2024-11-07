@@ -29,9 +29,4 @@ A robust **Document Management System** built in **Delphi** with **SQLite** for 
 - **Tesseract OCR** installed (recommended v5.0+).
 - **Microsoft Word** (for `.docx` export) or **SynPDF** if only PDF export is needed.
 
-### Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/document-management-system.git
-   cd document-management-system
+TO BE CONTINUED ...
