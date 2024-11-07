@@ -108,20 +108,7 @@ Configurazione di Grafana
 
     Crea una dashboard e aggiungi query come node_cpu_seconds_total per monitorare l'utilizzo della CPU.
 
-Struttura del Progetto
 
-ThatsAllCloud/
-├── backend/
-│   ├── server.js                # Configurazione principale del server
-│   ├── config/
-│   │   └── passport.js          # Configurazione di Google OAuth
-│   └── models/
-│       └── User.js              # Modello utente
-├── k8s/
-│   └── deployment.yaml          # Configurazione Kubernetes
-├── prometheus/
-│   └── prometheus.yml           # Configurazione Prometheus
-└── Dockerfile                   # Dockerfile per l'immagine backend
 
 ### Come Usare l'Applicazione
 
