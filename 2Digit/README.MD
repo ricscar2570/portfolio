@@ -92,6 +92,6 @@ For significant changes, please open an issue to discuss your ideas.
 This project is licensed under the MIT License. See LICENSE for details.
 📬 Contact
 
-Created by Your Name - feel free to reach out!
+Created by Riccardo Scaringi - feel free to reach out!
 
 This Document Management System demonstrates efficient document processing and organization, perfect for enhancing your portfolio. Enjoy organizing your documents! 😊
