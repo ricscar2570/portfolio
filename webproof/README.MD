@@ -21,28 +21,28 @@
 ## 📂 Struttura del Progetto
 
 WebProof/
-├── main.py                   # Script principale che esegue tutti i test
-├── config.py                 # Configurazioni di base per il sito e il driver
-├── requirements.txt          # Librerie richieste
+├── main.py                   
+├── config.py                 
+├── requirements.txt          
 ├── logs/
-│   └── webproof.log          # File di log per i risultati dei test
+│   └── webproof.log          
 ├── reports/
-│   └── report.txt            # Report dettagliato dei test
-├── security_tests/           # Cartella con i test di sicurezza
-│   ├── auth_test.py          # Test di autenticazione e autorizzazione
-│   ├── brute_force_test.py   # Test di forza bruta
-│   ├── csrf_test.py          # Test di protezione CSRF
-│   ├── directory_traversal_test.py  # Test di directory traversal
-│   ├── file_upload_test.py   # Test di validazione del file upload
-│   ├── http_header_test.py   # Test di protezione tramite HTTP headers
-│   ├── parameter_tampering_test.py  # Test di manomissione dei parametri
-│   ├── rate_limiting_test.py # Test di rate limiting
-│   ├── session_test.py       # Test di sicurezza della sessione
-│   ├── sql_injection.py      # Test di SQL injection
-│   └── xss_test.py           # Test di vulnerabilità XSS
-└── utils/                    # Funzioni utili
-    ├── logger.py             # Funzioni di logging
-    └── report.py             # Generazione report
+│   └── report.txt            
+├── security_tests/           
+│   ├── auth_test.py          
+│   ├── brute_force_test.py   
+│   ├── csrf_test.py          
+│   ├── directory_traversal_test.py  
+│   ├── file_upload_test.py   
+│   ├── http_header_test.py   
+│   ├── parameter_tampering_test.py  
+│   ├── rate_limiting_test.py 
+│   ├── session_test.py       
+│   ├── sql_injection.py      
+│   └── xss_test.py           
+└── utils/                    
+    ├── logger.py             
+    └── report.py             
 
 📥 Installazione
 
