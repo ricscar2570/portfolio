@@ -1,4 +1,4 @@
-# 🌐 WebProof: Automated Web Security Testing Tool
+# 🌐 WebProof: Automated Web Security Testing Tool 
 
 ![WebProof Logo](https://img.shields.io/badge/WebProof-Automated%20Security%20Testing-blueviolet?style=for-the-badge)
 ![Selenium](https://img.shields.io/badge/Selenium-Automation%20Testing-success?style=for-the-badge&logo=selenium)
