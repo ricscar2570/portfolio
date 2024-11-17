@@ -1,4 +1,4 @@
-#CI/CD Pipeline with Monitoring and Alerting 🚀
+# CI/CD Pipeline with Monitoring and Alerting 🚀
 
 This project demonstrates a fully automated Continuous Integration/Continuous Deployment (CI/CD) pipeline for a web application. It includes robust monitoring and alerting, ensuring seamless application delivery and system health visibility.
 
