@@ -1,8 +1,7 @@
 # 🌟 **Data Analytics, Data Science, Machine Learning & AI Repository** 🌟
 
-![Banner](https://via.placeholder.com/1200x400?text=Data+Analytics,+Data+Science,+Machine+Learning+and+AI)
 
-Benvenuti nel mio repository definitivo su **Data Analytics**, **Data Science**, **Machine Learning** e **Artificial Intelligence**! 🚀  
+Benvenuti nel mio repository su **Data Analytics**, **Data Science**, **Machine Learning** e **Artificial Intelligence**! 🚀  
 Questo contenitore è pensato per raccogliere progetti, notebook, articoli, risorse e strumenti che mostrano competenze, approcci e tecnologie all'avanguardia nel mondo dei dati.
 
 ---
@@ -22,8 +21,7 @@ Questo contenitore è pensato per raccogliere progetti, notebook, articoli, riso
 🔍 **Obiettivo**: Risolvere problemi reali con approcci statistici e computazionali.  
 ✔️ Tecnologie utilizzate: **NumPy**, **SciPy**, **Scikit-learn**, **SQL**.  
 ✔️ Progetti:
-- **Sentiment Analysis di recensioni Amazon**: [Link](./data-science/sentiment-analysis)
-- **Previsione dei prezzi delle case**: [Link](./data-science/house-pricing)
+
 
 ---
 
@@ -40,7 +38,6 @@ Questo contenitore è pensato per raccogliere progetti, notebook, articoli, riso
 🧠 **Obiettivo**: Creare sistemi autonomi con capacità avanzate di apprendimento.  
 ✔️ Tecnologie utilizzate: **PyTorch**, **OpenAI APIs**, **Transformers**.  
 ✔️ Progetti:
-- **Chatbot alimentato da GPT**: [Link](./ai/gpt-chatbot)
 - **Reti Neurali per il riconoscimento delle immagini**: [Link](./ai/image-classification)
 
 ---
@@ -66,13 +63,6 @@ Questo contenitore è pensato per raccogliere progetti, notebook, articoli, riso
 
 ---
 
-## 📄 **Struttura del Repository**
-
-📂 Data-Analytics-Data-Science-ML-AI/ ├── 📂 data-analytics/ │ ├── EDA/ │ └── power-bi-dashboard/ ├── 📂 data-science/ │ ├── sentiment-analysis/ │ └── house-pricing/ ├── 📂 machine-learning/ │ ├── random-forest/ │ └── xgboost-optimization/ ├── 📂 ai/ │ ├── gpt-chatbot/ │ └── image-classification/ └── README.md
-
-
----
-
 ## 🌐 **Come Utilizzare questo Repository**
 1. **Clona il repository**:  
    ```bash
@@ -87,9 +77,8 @@ Questo contenitore è pensato per raccogliere progetti, notebook, articoli, riso
 🙌 Sei appassionato di Data Science e vuoi contribuire? Sentiti libero di aprire issue o pull request. Ogni contributo è apprezzato e accreditato. 🙌
 📞 Contatti
 
-📧 Email: tuo-email@example.com
-🔗 LinkedIn: linkedin.com/in/tuo-username
-🐦 Twitter: @tuo-username
-⭐ Lascia una Star!
+📧 Email: ricscar@gmail.com
+🔗 LinkedIn: linkedin.com/
 
+⭐ Lascia una Star!
 Se trovi utile questo repository, non dimenticare di lasciare una ⭐ per supportare il progetto!
