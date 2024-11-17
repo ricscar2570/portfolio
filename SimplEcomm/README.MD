@@ -105,14 +105,13 @@ Back-end (Heroku):
         JWT_SECRET
 
 🔥 Contributi
-
 Contributi e suggerimenti sono benvenuti! Sentiti libero di aprire una Issue o inviare una Pull Request.
+
 📜 Licenza
-
 Questo progetto è rilasciato sotto la licenza MIT. Consulta il file LICENSE per ulteriori dettagli.
-👥 Contatti
 
+👥 Contatti
 Per domande o collaborazioni:
 
-    Email: tuo-email@example.com
-    GitHub: tuo-utente
+    Email: ricscar@gmail.com
+    GitHub: ricscar2570
