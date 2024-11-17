@@ -1,12 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-</head>
-<body>
-  <h1>Benvenuto al mio portfolio!</h1>
-  <p>Questa è una pagina ospitata su GitHub Pages.</p>
-</body>
-</html>
+---
+layout: default
+title: "Home"
+---
+
+<div class="portfolio">
+  <h1>Benvenuto al mio Portfolio</h1>
+  <p>Esplora i miei progetti attraverso le immagini sottostanti.</p>
+  <div class="projects">
+    {% for project in site.data.projects %}
+    <div class="project">
+      <a href="{{ project.url }}">
+        <img src="{{ project.image }}" alt="{{ project.name }}">
+        <h2>{{ project.name }}</h2>
+      </a>
+      <p>{{ project.description }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
