@@ -1,6 +1,6 @@
-# freepascALL - Piattaforma di E-commerce Intelligente
+# myEcommerce - Piattaforma di E-commerce Intelligente
 
-freepascALL è una piattaforma di e-commerce avanzata e personalizzata, progettata per offrire un'esperienza di acquisto ottimale. Il sistema integra diverse tecnologie, tra cui **backend in Node.js**, **frontend React**, **machine learning per raccomandazioni** personalizzate, **containerizzazione con Docker** e **orchestrazione con Kubernetes**, e utilizza strumenti di **monitoraggio** come **Prometheus e Grafana** per garantire un'applicazione sicura, scalabile e performante.
+myEcommerce è una piattaforma di e-commerce avanzata e personalizzata, progettata per offrire un'esperienza di acquisto ottimale. Il sistema integra diverse tecnologie, tra cui **backend in Node.js**, **frontend React**, **machine learning per raccomandazioni** personalizzate, **containerizzazione con Docker** e **orchestrazione con Kubernetes**, e utilizza strumenti di **monitoraggio** come **Prometheus e Grafana** per garantire un'applicazione sicura, scalabile e performante.
 
 ## Funzionalità Principali
 
