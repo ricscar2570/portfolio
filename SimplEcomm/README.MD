@@ -42,13 +42,6 @@ SimplEcomm è una piattaforma di e-commerce completa e user-friendly, progettata
 
 ---
 
-## 📂 Struttura del Progetto
-
-SimplEcomm/ ├── client/ # Front-end React.js │ ├── public/ # File pubblici │ └── src/ # Codice sorgente React ├── server/ # Back-end Node.js │ ├── models/ # Modelli Mongoose │ ├── routes/ # API RESTful │ ├── controllers/ # Logica applicativa │ └── middleware/ # Middleware personalizzati ├── .env # Configurazioni sensibili ├── package.json # Gestione delle dipendenze └── README.md # Documentazione del progetto
-
-
----
-
 ## 🖥️ Configurazione Locale
 
 ### Prerequisiti
