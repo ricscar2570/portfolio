@@ -1,1 +1,9 @@
+- name: "Progetto A"
+  description: "Un progetto che fa X."
+  image: "/assets/images/progetto-a.jpg"
+  url: "/projects/progetto-a/"
 
+- name: "Progetto B"
+  description: "Un progetto che fa Y."
+  image: "/assets/images/progetto-b.jpg"
+  url: "/projects/progetto-b/"
