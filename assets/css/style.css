@@ -65,7 +65,7 @@ main .features {
 }
 
 main .features .feature {
-  width: 500px;
+  width: 350px;
   text-align: center;
   background: white;
   border: 1px solid #ddd;
@@ -75,7 +75,7 @@ main .features .feature {
 }
 
 main .features .feature img {
-  max-width: 450px;
+  max-width: 300px;
   height: auto;
   margin: 0 auto 10px;
 }
