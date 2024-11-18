@@ -76,6 +76,73 @@ Usage
 
 Extracted OCR text from scanned documents stored in the database, with metadata display.
 
+# Learning Objectives for the Project: **Document Management System (DMS) - OCR & Full-Text Search**
+
+## **Technologies and Tools**
+1. **Delphi and FireDAC**
+   - Understand the basics of Delphi for desktop application development.
+   - Configure and use FireDAC for database operations with SQLite.
+
+2. **SQLite**
+   - Create, read, update, and delete records in an SQLite database.
+   - Utilize the FTS5 feature to implement optimized Full-Text Search.
+
+3. **OCR with Tesseract**
+   - Set up Tesseract OCR in a Delphi project.
+   - Integrate the OCR engine to extract text from images and scanners.
+
+4. **Document Export**
+   - Automate the generation of `.docx` and PDF files using SynPDF and Microsoft Word.
+
+---
+
+## **Software Design and Architecture**
+5. **Modular Architecture**
+   - Design a modular application that clearly separates logic, database, user interface, and OCR functionality.
+   - Implement a structure that facilitates scalability and debugging.
+
+6. **Category Management**
+   - Develop an automatic categorization system based on keyword analysis.
+
+7. **Search Optimization**
+   - Apply FTS5 to enable efficient search across archived documents.
+   - Implement advanced search filters by category, keyword, and scan date.
+
+---
+
+## **User Experience (UX) and UI Design**
+8. **Intuitive User Interface**
+   - Create a simple and user-friendly interface for uploading, searching, and exporting documents.
+   - Add notifications for OCR errors, export issues, or database connection failures.
+
+9. **Scanner/Image Input Management**
+   - Develop functionality for importing documents from scanners or image files.
+
+---
+
+## **Quality Management**
+10. **Debugging and Testing**
+    - Write unit tests for core functionalities: OCR, search, and export.
+    - Monitor database performance during Full-Text Search on large datasets.
+
+---
+
+## **Collaboration and Contribution**
+11. **Version Control and Open Source**
+    - Manage the project with version control systems (Git).
+    - Create comprehensive documentation to encourage contributions from other developers.
+
+---
+
+## **Project Outputs**
+12. **Professional Portfolio**
+    - Showcase the project as an example of technical skills in Delphi, databases, OCR, and document management.
+
+13. **Scalable Product**
+    - Implement features that can be easily extended in the future (e.g., multi-language OCR support).
+
+---
+
 Advanced search and categorization, allowing fast access to specific documents.
 🤝 Contributing
 
