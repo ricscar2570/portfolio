@@ -20,7 +20,7 @@ feature_row:
     url: "https://github.com/ricscar2570/portfolio/tree/main/MyWorldOfData"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
-  - image_path: /assets/images/progetto2.jpg
+  - image_path: /assets/images/ProgettoDashboard.webp
     alt: "Progetto 2"
     title: "Progetto 2"
     excerpt: "Un'app mobile innovativa."
