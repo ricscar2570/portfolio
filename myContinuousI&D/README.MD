@@ -164,6 +164,64 @@ Access Grafana:
 📈 Monitoring Dashboard Preview
 
 (Add a screenshot of your Grafana dashboard here to illustrate metrics visualization.)
+
+
+# 📚 Learning Objectives: CI/CD Pipeline with Monitoring and Alerting
+
+## 🚀 Goals
+
+By completing this project, learners will be able to:
+
+### 1. **Understand CI/CD Principles**
+   - Grasp the concepts of **Continuous Integration (CI)** and **Continuous Deployment (CD)**.
+   - Identify the benefits of automating the software development lifecycle.
+
+### 2. **Set Up a Jenkins Pipeline**
+   - Configure **Jenkins** for CI/CD workflows.
+   - Write and utilize a `Jenkinsfile` for automating build, test, and deployment processes.
+   - Integrate Jenkins with GitHub for source control management.
+
+### 3. **Containerize Applications with Docker**
+   - Create Docker images from application source code.
+   - Run and test containerized applications locally using Docker.
+   - Push images to a container registry (e.g., Docker Hub, AWS ECR).
+
+### 4. **Deploy and Orchestrate with Kubernetes**
+   - Deploy applications to a **Kubernetes cluster**.
+   - Understand Kubernetes components, including **Deployments**, **Services**, and **ReplicaSets**.
+   - Utilize **AWS Elastic Kubernetes Service (EKS)** for cloud-native application hosting.
+   - Scale applications dynamically based on load.
+
+### 5. **Implement Monitoring and Alerting**
+   - Set up **Prometheus** to monitor application and infrastructure metrics.
+   - Configure **Grafana** dashboards to visualize real-time data.
+   - Define Prometheus alerting rules to notify on critical system events.
+
+### 6. **Leverage AWS Cloud Services**
+   - Create and configure an **AWS EKS** cluster.
+   - Use AWS CLI and `kubectl` for cluster management.
+   - Understand how AWS services, such as **Load Balancers**, integrate with Kubernetes.
+
+### 7. **Apply Best Practices in DevOps**
+   - Learn the importance of modular, reusable configurations for scalable CI/CD pipelines.
+   - Ensure application reliability and performance in production environments.
+   - Understand how to manage and version infrastructure as code.
+
+### 8. **Collaborate Using GitHub**
+   - Manage repositories, branches, and workflows in GitHub.
+   - Use webhooks for event-based triggers in CI/CD pipelines.
+   - Collaborate effectively through version control.
+
+---
+
+### 🎯 Outcomes
+
+By mastering the above objectives, learners will gain the knowledge and hands-on experience needed to:
+- Build and maintain robust CI/CD pipelines.
+- Monitor and ensure the health of cloud-native applications.
+- Apply DevOps practices to deliver high-quality software efficiently.
+
+
 🤝 Contribution
 
 Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request.
@@ -172,4 +230,4 @@ Contributions are welcome! Please fork the repository, create a feature branch, 
 This project is licensed under the MIT License. See the LICENSE file for details.
 📬 Contact
 
-For questions or support, feel free to reach out via email@example.com.
+For questions or support, feel free to reach out via ricscar@gmail.com.
