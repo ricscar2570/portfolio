@@ -75,7 +75,7 @@ main .features .feature {
 }
 
 main .features .feature img {
-  max-width: none;
+  max-width: 450px;
   height: auto;
   margin: 0 auto 10px;
 }
