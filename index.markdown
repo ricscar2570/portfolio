@@ -5,7 +5,7 @@
 layout: splash
 title: "Benvenuto al Portfolio di Riccardo"
 header:
-  overlay_image: /assets/images/overlay.jpg
+  overlay_image: /assets/images/sfondo.webp
   overlay_filter: 0.7
   caption: "Scopri i miei progetti e competenze"
   actions:
