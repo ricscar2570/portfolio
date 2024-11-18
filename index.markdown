@@ -14,10 +14,10 @@ header:
       is_primary: true
 feature_row:
   - image_path: /assets/images/ProgettoData.webp
-    alt: "Progetto 1"
-    title: "Progetto 1"
+    alt: "Progetto Data"
+    title: "Progetto Data"
     excerpt: "Un progetto innovativo per il web."
-    url: "/projects/progetto1"
+    url: "https://github.com/ricscar2570/portfolio/tree/main/MyWorldOfData"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
   - image_path: /assets/images/progetto2.jpg
