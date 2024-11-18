@@ -45,7 +45,7 @@ my-dashboard-project/
 │   └── data_preprocessing.py
 ├── docker-compose.yml
 └── README.md
-'''
+
 
 Getting Started
 Prerequisites
