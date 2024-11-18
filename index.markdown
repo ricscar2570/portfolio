@@ -23,10 +23,11 @@ Questo contenitore è pensato per raccogliere progetti, notebook, articoli, riso
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
   - image_path: /assets/images/ProgettoDashboard.webp
-    alt: "Progetto 2"
-    title: "Progetto 2"
-    excerpt: "Un'app mobile innovativa."
-    url: "/projects/progetto2"
+    alt: "Progetto Interactive Dashboard"
+    title: "Progetto Interactive Dashboard"
+    excerpt: "Interactive Dashboard Project
+Welcome to the Interactive Dashboard Project! This dashboard enables users to explore and analyze complex datasets through interactive filters, dynamic charts, and customizable visualizations. It can be adapted to analyze business, demographic, financial, or any relevant data types."
+    url: "https://github.com/ricscar2570/portfolio/blob/main/myDataExplored/"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
   - image_path: /assets/images/ProgettoMachineLearning.webp
@@ -37,10 +38,11 @@ Questo contenitore è pensato per raccogliere progetti, notebook, articoli, riso
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
   - image_path: /assets/images/ProgettoOCR.webp
-    alt: "Progetto 3"
-    title: "Progetto 3"
-    excerpt: "Un'app mobile innovativa."
-    url: "/projects/progetto2"
+    alt: "Progetto 2Digit"
+    title: "Progetto 2Digit"
+    excerpt: "🗂 Document Management System (DMS) - OCR & Full-Text Search
+A robust Document Management System built in Delphi with SQLite for digitizing, categorizing, and indexing scanned documents. Leveraging OCR for text extraction and Full-Text Search capabilities, this app provides a powerful solution for organizing, searching, and exporting documents."
+    url: "https://github.com/ricscar2570/portfolio/tree/main/2Digit"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
   - image_path: /assets/images/ProgettoSecurity.webp
@@ -58,10 +60,10 @@ Questo contenitore è pensato per raccogliere progetti, notebook, articoli, riso
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
   - image_path: /assets/images/ProgettoHappyCustomer.webp
-    alt: "Progetto 3"
-    title: "Progetto 3"
-    excerpt: "Un'app mobile innovativa."
-    url: "/projects/progetto2"
+    alt: "Progetto Happy Customer"
+    title: "Progetto Happy Customer"
+    excerpt: "Happy Customer! è un sistema di gestione CRM progettato per aiutare le aziende a migliorare le interazioni con i clienti, ottimizzare i processi di vendita e supporto e automatizzare le attività di marketing. Con un’interfaccia semplice e intuitiva, Happy Customer! offre strumenti efficaci per gestire clienti, opportunità di vendita e ticket di supporto."
+    url: "https://github.com/ricscar2570/portfolio/blob/main/happyCustomer/"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
   - image_path: /assets/images/ProgettoAI.webp
@@ -72,17 +74,18 @@ Questo contenitore è pensato per raccogliere progetti, notebook, articoli, riso
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
   - image_path: /assets/images/SimpleEcomm.webp
-    alt: "Progetto 3"
-    title: "Progetto 3"
-    excerpt: "Un'app mobile innovativa."
-    url: "/projects/progetto2"
+    alt: "Progetto SimplEcomm"
+    title: "Progetto SimplEcomm"
+    excerpt: "SimplEcomm è una piattaforma di e-commerce completa e user-friendly, progettata per offrire un'esperienza d'acquisto fluida sia per gli utenti che per gli amministratori. Gli utenti possono esplorare i prodotti, aggiungerli al carrello e completare gli ordini, mentre gli amministratori possono gestire l'intero sistema, inclusi prodotti, ordini e utenti."
+    url: "https://github.com/ricscar2570/portfolio/blob/main/SimplEcomm/"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
   - image_path: /assets/images/ProgettoCheckFit.webp
-    alt: "Progetto 3"
-    title: "Progetto 3"
-    excerpt: "Un'app mobile innovativa."
-    url: "/projects/progetto2"
+    alt: "Progetto Fitness Tracker App"
+    title: "Progetto Fitness Tracker App"
+    excerpt: "Fitness Tracker App 🏋️‍♂️📱
+Fitness Tracker App è un'applicazione mobile progettata per aiutarti a monitorare e migliorare il tuo benessere fisico. Registrare allenamenti, monitorare progressi, impostare obiettivi e partecipare a sfide sociali non è mai stato così semplice e divertente!"
+    url: "https://github.com/ricscar2570/portfolio/blob/main/checkFit/"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"                        
 ---
