@@ -20,7 +20,7 @@ Welcome to the Interactive Dashboard Project! This dashboard enables users to ex
 
 ## Project Structure
 
-
+'''
 my-dashboard-project/
 ├── backend/
 │   ├── Dockerfile
@@ -45,6 +45,7 @@ my-dashboard-project/
 │   └── data_preprocessing.py
 ├── docker-compose.yml
 └── README.md
+'''
 
 Getting Started
 Prerequisites
