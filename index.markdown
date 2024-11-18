@@ -3,4 +3,28 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: splash
+title: "Benvenuto al Portfolio di Riccardo"
+header:
+  overlay_image: /assets/images/overlay.jpg
+  overlay_filter: 0.7
+  caption: "Scopri i miei progetti e competenze"
+  actions:
+    - label: "Scopri di più"
+      url: "/about/"
+      is_primary: true
+feature_row:
+  - image_path: /assets/images/progetto1.jpg
+    alt: "Progetto 1"
+    title: "Progetto 1"
+    excerpt: "Un progetto innovativo per il web."
+    url: "/projects/progetto1"
+    btn_label: "Scopri di più"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/progetto2.jpg
+    alt: "Progetto 2"
+    title: "Progetto 2"
+    excerpt: "Un'app mobile innovativa."
+    url: "/projects/progetto2"
+    btn_label: "Scopri di più"
+    btn_class: "btn--primary"
 ---
