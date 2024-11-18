@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {%- include head.html -%}
+</head>
+<body class="layout-splash">
+  <header>
+    <div class="splash-header" style="background-image: url('{{ page.header.overlay_image | relative_url }}'); filter: brightness({{ page.header.overlay_filter | default: 0.5 }});">
+      <div class="header-caption">
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.header.caption }}</p>
+        {% if page.header.actions %}
+          <div class="header-actions">
+            {% for action in page.header.actions %}
+              <a href="{{ action.url }}" class="btn btn-primary">{{ action.label }}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="splash-content">
+      {% if page.feature_row %}
+        <div class="features">
+          {% for feature in page.feature_row %}
+            <div class="feature">
+              <img src="{{ feature.image_path | relative_url }}" alt="{{ feature.alt }}">
+              <h2>{{ feature.title }}</h2>
+              <p>{{ feature.excerpt }}</p>
+              <a href="{{ feature.url }}" class="{{ feature.btn_class }}">{{ feature.btn_label }}</a>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+  </footer>
+</body>
+</html>
