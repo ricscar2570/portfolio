@@ -27,4 +27,4 @@ feature_row:
     url: "/projects/progetto2"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
-    ---
+---
