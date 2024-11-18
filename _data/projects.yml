@@ -1,7 +1,7 @@
 - name: "Progetto A"
   description: "Un progetto che fa X."
   image: "/assets/images/progetto-a.jpg"
-  url: "/portfolio/2Digit/"
+  url: "2Digit"
 
 - name: "Progetto B"
   description: "Un progetto che fa Y."
