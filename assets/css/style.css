@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header .splash-header {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+header .splash-header .header-caption {
+  z-index: 1;
+}
+
+header .splash-header:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Sovrapposizione scura */
+}
+
+header .header-caption h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+header .header-caption p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+header .header-actions a {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+header .header-actions a:hover {
+  background-color: #0056b3;
+}
+
+main .features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+main .features .feature {
+  width: 300px;
+  text-align: center;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+main .features .feature img {
+  max-width: 100px;
+  height: auto;
+  margin: 0 auto 10px;
+}
+
+main .features .feature h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+main .features .feature p {
+  font-size: 14px;
+  color: #555;
+}
+
+main .features .feature a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+main .features .feature a:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
