@@ -18,33 +18,6 @@ Welcome to the Interactive Dashboard Project! This dashboard enables users to ex
 - **Data Analysis**: Python, Pandas, NumPy
 - **Deployment**: Docker, Heroku
 
-## Project Structure
-
-''' plaintext
-my-dashboard-project/
-├── backend/
-│   ├── Dockerfile
-│   ├── package.json
-│   ├── server.js
-│   ├── models/
-│   │   └── Data.js
-│   ├── routes/
-│   │   └── data.js
-│   └── .env
-├── frontend/
-│   ├── Dockerfile
-│   ├── package.json
-│   ├── public/
-│   └── src/
-│       ├── App.js
-│       ├── components/
-│       │   ├── Dashboard.js
-│       │   ├── FilterPanel.js
-│       │   └── ChartComponent.js
-├── data-analysis/
-│   └── data_preprocessing.py
-├── docker-compose.yml
-└── README.md
 
 
 Getting Started
