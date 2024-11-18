@@ -31,7 +31,9 @@
         <div class="features">
           {% for feature in page.feature_row %}
             <div class="feature">
-              <img src="{{ feature.image_path | relative_url }}" alt="{{ feature.alt }}">
+              <a href="{{ feature.url }}">
+                 <img src="{{ feature.image_path | relative_url }}" alt="{{ feature.alt }}">
+              </a>
               <h2>{{ feature.title }}</h2>
               <p>{{ feature.excerpt }}</p>
               <a href="{{ feature.url }}" class="{{ feature.btn_class }}">{{ feature.btn_label }}</a>
