@@ -24,7 +24,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Ogni progetto racconta una storia di sfide, soluzioni e crescita personale. Esplora il sito per conoscere meglio il mio lavoro e le mie ambizioni.
 
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 url: "https://www.riccardoscaringi.eu" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
