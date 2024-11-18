@@ -27,7 +27,7 @@ feature_row:
     url: "/projects/progetto2"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
-    - image_path: /assets/images/ProgettoMachineLearning.webp
+  - image_path: /assets/images/ProgettoMachineLearning.webp
     alt: "Progetto 3"
     title: "Progetto 3"
     excerpt: "Un'app mobile innovativa."
