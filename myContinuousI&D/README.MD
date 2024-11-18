@@ -91,7 +91,6 @@ L'architettura del progetto segue un flusso strutturato e modulare che automatiz
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/yourusername/ci-cd-monitoring-pipeline.git
 cd ci-cd-monitoring-pipeline
 
