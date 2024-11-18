@@ -5,7 +5,7 @@
 layout: splash
 title: "Benvenuto al Portfolio di Riccardo"
 header:
-  overlay_image: /_assets/images/overlay.jpg
+  overlay_image: /assets/images/overlay.jpg
   overlay_filter: 0.7
   caption: "Scopri i miei progetti e competenze"
   actions:
@@ -13,14 +13,14 @@ header:
       url: "/about/"
       is_primary: true
 feature_row:
-  - image_path: /_assets/images/ProgettoData.webp
+  - image_path: /assets/images/ProgettoData.webp
     alt: "Progetto Data"
     title: "Progetto Data"
     excerpt: "Un progetto innovativo per il web."
     url: "https://github.com/ricscar2570/portfolio/tree/main/MyWorldOfData"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
-  - image_path: /_assets/images/progetto2.jpg
+  - image_path: /assets/images/progetto2.jpg
     alt: "Progetto 2"
     title: "Progetto 2"
     excerpt: "Un'app mobile innovativa."
