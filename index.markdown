@@ -13,7 +13,7 @@ header:
       url: "/about/"
       is_primary: true
 feature_row:
-  - image_path: /assets/images/progetto1.jpg
+  - image_path: /assets/images/ProgettoData.webp
     alt: "Progetto 1"
     title: "Progetto 1"
     excerpt: "Un progetto innovativo per il web."
