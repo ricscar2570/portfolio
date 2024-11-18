@@ -20,7 +20,7 @@ Welcome to the Interactive Dashboard Project! This dashboard enables users to ex
 
 ## Project Structure
 
-```plaintext
+
 my-dashboard-project/
 ├── backend/
 │   ├── Dockerfile
