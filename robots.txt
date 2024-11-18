@@ -1,1 +1,1 @@
-Sitemap: https://www.riccardoscaringi.eu/portfolio/sitemap.xml
+Sitemap: https://www.riccardoscaringi.eu/sitemap.xml
