@@ -70,5 +70,19 @@ Questo contenitore è pensato per raccogliere progetti, notebook, articoli, riso
     excerpt: "Un'app mobile innovativa."
     url: "/projects/progetto2"
     btn_label: "Scopri di più"
-    btn_class: "btn--primary"              
+    btn_class: "btn--primary"
+  - image_path: /assets/images/SimpleEcomm.webp
+    alt: "Progetto 3"
+    title: "Progetto 3"
+    excerpt: "Un'app mobile innovativa."
+    url: "/projects/progetto2"
+    btn_label: "Scopri di più"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/ProgettoCheckFit.webp
+    alt: "Progetto 3"
+    title: "Progetto 3"
+    excerpt: "Un'app mobile innovativa."
+    url: "/projects/progetto2"
+    btn_label: "Scopri di più"
+    btn_class: "btn--primary"                        
 ---
