@@ -9,7 +9,7 @@ header:
   overlay_filter: 0.7
   caption: >
    Benvenuto nel mio portfolio personale. <br>
-    **Esplora** i miei progetti, competenze e interessi in ambito tecnologico.
+    <b>Esplora<b> i miei progetti, competenze e interessi in ambito tecnologico.
     <br><br>
     **Contattami** per collaborazioni o domande!
   actions:
