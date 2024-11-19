@@ -37,7 +37,7 @@
                  <img src="{{ feature.image_path | relative_url }}" alt="{{ feature.alt }}">
               </a>
               <h2>{{ feature.title }}</h2>
-              <p>{{ feature.excerpt }}</p>
+              <p>{{ feature.excerpt | markdownify}}</p>
               <a href="{{ feature.url }}" class="{{ feature.btn_class }}">{{ feature.btn_label }}</a>
             </div>
           {% endfor %}
