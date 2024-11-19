@@ -3,11 +3,11 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: splash
-title: "Benvenuto al Portfolio di Riccardo"
+title: "Benvenuto nel Portfolio di Riccardo Scaringi"
 header:
   overlay_image: /assets/images/ProgettoAI.webp
   overlay_filter: 0.7
-  caption: "Scopri i miei progetti e competenze"
+  caption: "Scopri i miei progetti e le mie competenze"
   actions:
     - label: "Scopri di più"
       url: "/about/"
