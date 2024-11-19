@@ -56,6 +56,31 @@ header .header-actions a:hover {
   background-color: #0056b3;
 }
 
+.header-caption {
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.header-caption h1 {
+  font-size: 36px; /* Titolo principale */
+  margin-bottom: 10px;
+}
+
+.header-caption .caption-text {
+  font-size: 14px; /* Testo più piccolo */
+  line-height: 1.6; /* Spaziatura tra le righe */
+  margin-top: 10px;
+}
+
+.header-caption .caption-text p {
+  margin-bottom: 10px; /* Spazio tra i paragrafi */
+}
+
+.header-caption .caption-text strong {
+  font-weight: bold; /* Grassetto */
+}
+
 main .features {
   display: flex;
   flex-wrap: wrap;
