@@ -7,7 +7,7 @@ title: "Benvenuto nel Portfolio di Riccardo Scaringi"
 header:
   overlay_image: /assets/images/ProgettoAI.webp
   overlay_filter: 0.7
-  caption:>
+  caption: >
    Benvenuto nel mio portfolio personale. <br>
     **Esplora** i miei progetti, competenze e interessi in ambito tecnologico.
     <br><br>
