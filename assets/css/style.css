@@ -68,7 +68,7 @@ header .header-actions a:hover {
 }
 
 .header-caption .caption-text {
-  font-size: 14px; /* Testo più piccolo */
+  font-size: 12px; /* Testo più piccolo */
   line-height: 1.6; /* Spaziatura tra le righe */
   margin-top: 10px;
 }
