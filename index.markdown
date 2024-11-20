@@ -10,8 +10,10 @@ header:
   caption: >
    Benvenuto nel mio portfolio personale. <br>
     <b>Esplora<b> i miei progetti, competenze e interessi in ambito tecnologico.
+    Richiedimi l'accesso come Visualizzatore in Jira per seguire lo sviluppo
+    dei miei progetti.
     <br><br>
-    **Contattami** per collaborazioni o domande!
+    **Contattami** per collaborazioni o domande (ricscar@gmail.com)!
   actions:
     - label: "Scopri di più"
       url: "/about/"
