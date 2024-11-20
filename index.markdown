@@ -87,8 +87,8 @@ A robust Document Management System built in Delphi with SQLite for digitizing, 
   - image_path: /assets/images/ProgettoCheckFit.webp
     alt: "Progetto Fitness Tracker App"
     title: "Progetto Fitness Tracker App"
-    excerpt: "Fitness Tracker App 🏋️‍♂️📱
-Fitness Tracker App è un'applicazione mobile progettata per aiutarti a monitorare e migliorare il tuo benessere fisico. Registrare allenamenti, monitorare progressi, impostare obiettivi e partecipare a sfide sociali non è mai stato così semplice e divertente!
+    excerpt: "Fitness Tracker App 🏋️‍♂️📱<br>
+Fitness Tracker App è un'applicazione mobile progettata per aiutarti a monitorare e migliorare il tuo benessere fisico. Registrare allenamenti, monitorare progressi, impostare obiettivi e partecipare a sfide sociali non è mai stato così semplice e divertente!<b>
 Competenze Acquisite:
     Flutter: Sviluppo UI/UX, gestione stato con Provider, grafici (fl_chart), mappe (Google Maps).
     Firebase: Autenticazione, Firestore, storage.
