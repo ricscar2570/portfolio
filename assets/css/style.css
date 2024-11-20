@@ -83,7 +83,7 @@ header .header-actions a:hover {
 }
 
 .excerpt {
-  font-size: 12px; /* Carattere molto più piccolo */
+  font-size: 9px; /* Carattere molto più piccolo */
   line-height: 1.4; /* Migliora la leggibilità con una spaziatura più compatta */
   color: #666; /* Usa un colore più chiaro per meno enfasi */
   margin-top: 10px; /* Aggiunge un po' di spazio sopra l'excerpt */
