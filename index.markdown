@@ -20,8 +20,7 @@ feature_row:
   - image_path: /assets/images/ProgettoData.webp
     alt: "Progetto Data"
     title: "Progetto Data"
-    excerpt: >
-    <b>Data Analytics, Data Science, Machine Learning & AI Repository</b> <br>
+    excerpt: <b>Data Analytics, Data Science, Machine Learning & AI Repository</b> <br>
 Benvenuti nel mio repository su Data Analytics, Data Science, Machine Learning e Artificial Intelligence! 🚀
 Questo contenitore è pensato per raccogliere progetti, notebook, articoli, risorse e strumenti che mostrano competenze, approcci e tecnologie all'avanguardia nel mondo dei dati..
     url: "https://github.com/ricscar2570/portfolio/tree/main/MyWorldOfData"
