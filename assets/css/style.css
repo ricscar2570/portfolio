@@ -88,6 +88,7 @@ header .header-actions a:hover {
   color: #666; /* Usa un colore più chiaro per meno enfasi */
   margin-top: 10px; /* Aggiunge un po' di spazio sopra l'excerpt */
   margin-bottom: 15px; /* Aggiunge uno spazio tra l’excerpt e gli altri elementi */
+  text-align: justify; /* Giustifica il testo */
 }
 
 main .features {
