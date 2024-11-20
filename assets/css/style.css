@@ -38,7 +38,7 @@ header .header-caption h1 {
 }
 
 header .header-caption p {
-  font-size: 18px;
+  font-size: 14px;
   margin: 10px 0;
 }
 
@@ -57,7 +57,7 @@ header .header-actions a:hover {
 }
 
 .header-caption {
-  text-align: center;
+  text-align: justify;
   padding: 20px;
   color: white;
 }
