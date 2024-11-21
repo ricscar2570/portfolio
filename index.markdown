@@ -77,7 +77,7 @@ A robust Document Management System built in Delphi with SQLite for digitizing, 
     url: "https://github.com/ricscar2570/portfolio/blob/main/happyCustomer/"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
- - image_path: /assets/images/SimpleEcomm.webp
+  - image_path: /assets/images/SimpleEcomm.webp
     alt: "Progetto SimplEcomm"
     title: "Progetto SimplEcomm"
     excerpt: "SimplEcomm è una piattaforma di e-commerce completa e user-friendly, progettata per offrire un'esperienza d'acquisto fluida sia per gli utenti che per gli amministratori. Gli utenti possono esplorare i prodotti, aggiungerli al carrello e completare gli ordini, mentre gli amministratori possono gestire l'intero sistema, inclusi prodotti, ordini e utenti."
