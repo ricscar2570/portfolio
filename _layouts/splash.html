@@ -14,14 +14,7 @@
       <div class="header-caption">
         <h1>{{ page.title }}</h1>
         <p>{{ page.header.caption }}</p>
-        {% if page.header.actions %}
-         <div class="caption-text">
-            {{ page.header.caption | markdownify }}
-          </div>
-            {% for action in page.header.actions %}
-              <a href="{{ action.url }}" class="btn btn-primary">{{ action.label }}</a>
-            {% endfor %}
-          </div>
+        </div>
         {% endif %}
       </div>
     </div>
