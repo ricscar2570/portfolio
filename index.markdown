@@ -55,7 +55,7 @@ A robust Document Management System built in Delphi with SQLite for digitizing, 
     alt: "Progetto SecurAPP"
     title: "Progetto SecurAPP"
     excerpt: "Security Monitoring System è una soluzione avanzata per il monitoraggio della sicurezza delle applicazioni web. <br><br>
-    progettata per rilevare vulnerabilità comuni, monitorare il traffico di rete e inviare avvisi in tempo reale. Utilizza tecnologie di analisi statica del       codice, monitoraggio del traffico, e si integra con strumenti di sicurezza leader di settore come OWASP ZAP, Suricata, e la ELK Stack."
+    Progettata per rilevare vulnerabilità comuni, monitorare il traffico di rete e inviare avvisi in tempo reale. Utilizza tecnologie di analisi statica del       codice, monitoraggio del traffico, e si integra con strumenti di sicurezza leader di settore come OWASP ZAP, Suricata, e la ELK Stack."
     url: "https://github.com/ricscar2570/portfolio/blob/main/securApp/"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
