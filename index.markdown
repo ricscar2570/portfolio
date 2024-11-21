@@ -38,7 +38,8 @@ Welcome to the Interactive Dashboard Project! This dashboard enables users to ex
     btn_class: "btn--primary"
   - image_path: /assets/images/ProgettoMachineLearning.webp
     alt: "myEcommerce - Intelligent E-Commerce Platform"
-    title: "myEcommerce - Intelligent E-Commerce Platform"
+    title: "myEcommerce - Intelligent E-Commerce Platform<br<br>
+    myEcommerce is an advanced and personalized e-commerce platform designed to offer an optimal shopping experience. The system integrates cutting-edge technologies, including Node.js backend, React frontend, machine learning for personalized recommendations, containerization with Docker, orchestration with Kubernetes, and monitoring tools like Prometheus and Grafana, to ensure a secure, scalable, and high-performance application."
     excerpt: "Un'app mobile innovativa."
     url: "https://github.com/ricscar2570/portfolio/tree/main/myEcoomerce"
     btn_label: "Scopri di più"
@@ -76,14 +77,7 @@ A robust Document Management System built in Delphi with SQLite for digitizing, 
     url: "https://github.com/ricscar2570/portfolio/blob/main/happyCustomer/"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
-  - image_path: /assets/images/ProgettoAI.webp
-    alt: "Progetto 3"
-    title: "Progetto 3"
-    excerpt: "Un'app mobile innovativa."
-    url: "/projects/progetto2"
-    btn_label: "Scopri di più"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/SimpleEcomm.webp
+ - image_path: /assets/images/SimpleEcomm.webp
     alt: "Progetto SimplEcomm"
     title: "Progetto SimplEcomm"
     excerpt: "SimplEcomm è una piattaforma di e-commerce completa e user-friendly, progettata per offrire un'esperienza d'acquisto fluida sia per gli utenti che per gli amministratori. Gli utenti possono esplorare i prodotti, aggiungerli al carrello e completare gli ordini, mentre gli amministratori possono gestire l'intero sistema, inclusi prodotti, ordini e utenti."
