@@ -31,8 +31,7 @@ Questo contenitore è pensato per raccogliere progetti, notebook, articoli, riso
   - image_path: /assets/images/ProgettoDashboard.webp
     alt: "Progetto Interactive Dashboard"
     title: "Progetto Interactive Dashboard"
-    excerpt: "Interactive Dashboard Project
-Welcome to the Interactive Dashboard Project! This dashboard enables users to explore and analyze complex datasets through interactive filters, dynamic charts, and customizable visualizations. It can be adapted to analyze business, demographic, financial, or any relevant data types."
+    excerpt: "This dashboard enables users to explore and analyze complex datasets through interactive filters, dynamic charts, and customizable visualizations. It can be adapted to analyze business, demographic, financial, or any relevant data types."
     url: "https://github.com/ricscar2570/portfolio/blob/main/myDataExplored/"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
