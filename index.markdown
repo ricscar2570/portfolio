@@ -37,10 +37,10 @@ Welcome to the Interactive Dashboard Project! This dashboard enables users to ex
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
   - image_path: /assets/images/ProgettoMachineLearning.webp
-    alt: "Progetto 3"
-    title: "Progetto 3"
+    alt: "myEcommerce - Intelligent E-Commerce Platform"
+    title: "myEcommerce - Intelligent E-Commerce Platform"
     excerpt: "Un'app mobile innovativa."
-    url: "/projects/progetto2"
+    url: "https://github.com/ricscar2570/portfolio/tree/main/myEcoomerce"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
   - image_path: /assets/images/ProgettoOCR.webp
@@ -52,17 +52,21 @@ A robust Document Management System built in Delphi with SQLite for digitizing, 
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
   - image_path: /assets/images/ProgettoSecurity.webp
-    alt: "Progetto 3"
-    title: "Progetto 3"
-    excerpt: "Un'app mobile innovativa."
-    url: "/projects/progetto2"
+    alt: "Progetto SecurAPP"
+    title: "Progetto SecurAPP"
+    excerpt: "Security Monitoring System è una soluzione avanzata per il monitoraggio della sicurezza delle applicazioni web. <br><br>
+    progettata per rilevare vulnerabilità comuni, monitorare il traffico di rete e inviare avvisi in tempo reale. Utilizza tecnologie di analisi statica del       codice, monitoraggio del traffico, e si integra con strumenti di sicurezza leader di settore come OWASP ZAP, Suricata, e la ELK Stack."
+    url: "https://github.com/ricscar2570/portfolio/blob/main/securApp/"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
   - image_path: /assets/images/ProgettoThatsAllCloud.webp
-    alt: "Progetto 3"
-    title: "Progetto 3"
-    excerpt: "Un'app mobile innovativa."
-    url: "/projects/progetto2"
+    alt: "Progetto ThatsAllCloud"
+    title: "Progetto ThatsAllCloud"
+    excerpt: "That'sAllCloud è una piattaforma di gestione delle risorse cloud che consente agli utenti di monitorare e gestire facilmente le risorse
+    DB.<br><br>
+    Il progetto include funzionalità di autenticazione tramite Google OAuth, monitoring in tempo reale tramite Prometheus e Grafana, e deployment scalabile
+    su Kubernetes."
+    url: "https://github.com/ricscar2570/portfolio/tree/main/thatsAllCloud"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
   - image_path: /assets/images/ProgettoHappyCustomer.webp
