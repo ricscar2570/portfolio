@@ -1,3 +1,37 @@
+---
+layout: splash
+title: "Progetto Data"
+permalink: /progetto-data/
+header:
+  overlay_image: /assets/images/ProgettoData.webp
+  overlay_filter: 0.5
+  caption: >
+    Esplora il Progetto Data: <br> Data Analytics, Data Science, Machine Learning & AI
+feature_row:
+  - image_path: /assets/images/MLProject.webp
+    alt: "Machine Learning Project"
+    title: "Machine Learning Project"
+    excerpt: "Scopri come utilizzo tecniche di Machine Learning per risolvere problemi reali e ottimizzare processi aziendali."
+    url: "/ml-project/"
+    btn_label: "Scopri di più"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/DataVisualization.webp
+    alt: "Data Visualization"
+    title: "Data Visualization"
+    excerpt: "Esempi e strumenti avanzati per creare visualizzazioni significative dai dati."
+    url: "/data-visualization/"
+    btn_label: "Esplora"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/AIApplications.webp
+    alt: "AI Applications"
+    title: "AI Applications"
+    excerpt: "Progetti che mostrano come applicare l'intelligenza artificiale per migliorare prodotti e servizi."
+    url: "/ai-applications/"
+    btn_label: "Scopri di più"
+    btn_class: "btn--primary"
+---
+
+
 # 🌟 **Data Analytics, Data Science, Machine Learning & AI Repository** 🌟
 
 
