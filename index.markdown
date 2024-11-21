@@ -38,9 +38,8 @@ Welcome to the Interactive Dashboard Project! This dashboard enables users to ex
     btn_class: "btn--primary"
   - image_path: /assets/images/ProgettoMachineLearning.webp
     alt: "myEcommerce - Intelligent E-Commerce Platform"
-    title: "myEcommerce - Intelligent E-Commerce Platform<br<br>
-    myEcommerce is an advanced and personalized e-commerce platform designed to offer an optimal shopping experience. The system integrates cutting-edge technologies, including Node.js backend, React frontend, machine learning for personalized recommendations, containerization with Docker, orchestration with Kubernetes, and monitoring tools like Prometheus and Grafana, to ensure a secure, scalable, and high-performance application."
-    excerpt: "Un'app mobile innovativa."
+    title: "myEcommerce - Intelligent E-Commerce Platform"
+    excerpt: "myEcommerce is an advanced and personalized e-commerce platform designed to offer an optimal shopping experience. The system integrates cutting-edge technologies, including Node.js backend, React frontend, machine learning for personalized recommendations, containerization with Docker, orchestration with Kubernetes, and monitoring tools like Prometheus and Grafana, to ensure a secure, scalable, and high-performance application."
     url: "https://github.com/ricscar2570/portfolio/tree/main/myEcoomerce"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
