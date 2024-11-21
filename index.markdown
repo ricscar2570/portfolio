@@ -46,7 +46,7 @@ Welcome to the Interactive Dashboard Project! This dashboard enables users to ex
   - image_path: /assets/images/ProgettoOCR.webp
     alt: "Progetto 2Digit"
     title: "Progetto 2Digit"
-    excerpt: "🗂 Document Management System (DMS) - OCR & Full-Text Search
+    excerpt: "🗂 Document Management System (DMS) - OCR & Full-Text Search<BR><BR>
 A robust Document Management System built in Delphi with SQLite for digitizing, categorizing, and indexing scanned documents. Leveraging OCR for text extraction and Full-Text Search capabilities, this app provides a powerful solution for organizing, searching, and exporting documents."
     url: "https://github.com/ricscar2570/portfolio/tree/main/2Digit"
     btn_label: "Scopri di più"
