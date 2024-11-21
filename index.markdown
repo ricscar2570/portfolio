@@ -16,8 +16,8 @@ header:
     **Contattami** per collaborazioni o domande (ricscar@gmail.com)!
   actions:
   - label: "Scopri di più"
-      url: "/about/"
-      is_primary: true
+    url: "/about/"
+    is_primary: true
 feature_row:
   - image_path: /assets/images/ProgettoData.webp
     alt: "Progetto Data"
