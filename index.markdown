@@ -25,7 +25,7 @@ feature_row:
     excerpt: "<b>Data Analytics, Data Science, Machine Learning & AI Repository</b> <br><br>
 Benvenuti nel mio repository su Data Analytics, Data Science, Machine Learning e Artificial Intelligence! 🚀
 Questo contenitore è pensato per raccogliere progetti, notebook, articoli, risorse e strumenti che mostrano competenze, approcci e tecnologie all'avanguardia nel mondo dei dati.."
-    url: "https://github.com/ricscar2570/portfolio/tree/main/MyWorldOfData"
+    url: "/MyWorldOfData/"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
   - image_path: /assets/images/ProgettoDashboard.webp
