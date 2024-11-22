@@ -13,7 +13,7 @@ header:
     Richiedimi l'accesso come Visualizzatore in Jira per seguire lo sviluppo
     dei miei progetti.
     <br><br>
-    **Contattami** per collaborazioni o domande (ricscar@gmail.com)!
+    <b>Contattami</b> per collaborazioni o domande (mailto: ricscar@gmail.com)!
   actions:
   - label: "Scopri di più"
     url: "/about/"
