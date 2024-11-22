@@ -1,9 +1,10 @@
+// DocumentiDB unit - manages database operations
 unit DocumentiDB;
 
 interface
 
 uses
-  FireDAC.Comp.Client, FireDAC.Stan.Param, System.SysUtils, Vcl.StdCtrls;
+  FireDAC.Comp.Client, System.SysUtils, Vcl.StdCtrls;
 
 type
   TDocumentiDB = class
@@ -62,11 +63,11 @@ end;
 
 procedure TDocumentiDB.SearchDocument(Termini: String; ListBoxResults: TListBox);
 begin
-  FDQuery.SQL.Text := 'SELECT * FROM Documenti WHERE TestoOCR MATCH :Termini';
+  FDQuery.SQL.Text := 'SELECT NomeFile, Categoria FROM DocumentiFTS WHERE TestoOCR MATCH :Termini';
   FDQuery.ParamByName('Termini').AsString := Termini;
   FDQuery.Open;
 
-  ListBoxResults.Clear;
+  ListBoxResults.Items.Clear;
   while not FDQuery.Eof do
   begin
     ListBoxResults.Items.Add(FDQuery.FieldByName('NomeFile').AsString);

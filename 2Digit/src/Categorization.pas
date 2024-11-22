@@ -1,3 +1,4 @@
+// Categorization unit - categorizes documents based on keywords
 unit Categorization;
 
 interface
@@ -5,15 +6,18 @@ interface
 type
   TCategorization = class
   public
-    function Categorize(Testo: String): String;
+    function Categorize(Text: String): String;
   end;
 
 implementation
 
-function TCategorization.Categorize(Testo: String): String;
+function TCategorization.Categorize(Text: String): String;
 begin
-  // Implementazione per categorizzazione
-  Result := 'Categoria determinata';
+  // Simulated categorization logic
+  if Pos('invoice', LowerCase(Text)) > 0 then
+    Result := 'Invoice'
+  else
+    Result := 'Uncategorized';
 end;
 
 end.

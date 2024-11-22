@@ -1,3 +1,4 @@
+// OCRModule unit - handles Optical Character Recognition using Tesseract
 unit OCRModule;
 
 interface
@@ -15,8 +16,8 @@ implementation
 
 function TOCRModule.ExtractTextFromImage(Bitmap: TBitmap): String;
 begin
-  // Implementazione per OCR con Tesseract
-  Result := 'Testo estratto con OCR';
+  // Simulated OCR functionality
+  Result := 'Extracted text from OCR.';
 end;
 
 end.
