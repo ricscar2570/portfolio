@@ -13,19 +13,19 @@ header:
     Richiedimi l'accesso come Visualizzatore in Jira per seguire lo sviluppo
     dei miei progetti.
     <br><br>
-    <b>Contattami</b> per collaborazioni o domande (<a href="mailto:ricscar@gmail.com">ricscar@gmail.com</a>)!
+    **Contattami** per collaborazioni o domande (ricscar@gmail.com)!
   actions:
   - label: "Scopri di più"
     url: "/about/"
     is_primary: true
 feature_row:
   - image_path: /assets/images/ProgettoData.webp
-    alt: "Progetto Data"
-    title: "Progetto Data"
+    alt: "Some of my DATA"
+    title: "Some of my DATA"
     excerpt: "<b>Data Analytics, Data Science, Machine Learning & AI Repository</b> <br><br>
 Benvenuti nel mio repository su Data Analytics, Data Science, Machine Learning e Artificial Intelligence! 🚀
 Questo contenitore è pensato per raccogliere progetti, notebook, articoli, risorse e strumenti che mostrano competenze, approcci e tecnologie all'avanguardia nel mondo dei dati.."
-    url: "/MyWorldOfData/"
+    url: "https://github.com/ricscar2570/portfolio/tree/main/Some%20of%20My%20Data"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
   - image_path: /assets/images/ProgettoDashboard.webp
@@ -87,7 +87,7 @@ A robust Document Management System built in Delphi with SQLite for digitizing, 
     title: "Progetto Fitness Tracker App"
     excerpt: "Fitness Tracker App 🏋️‍♂️📱<br>
 Fitness Tracker App è un'applicazione mobile progettata per aiutarti a monitorare e migliorare il tuo benessere fisico. Registrare allenamenti, monitorare progressi, impostare obiettivi e partecipare a sfide sociali non è mai stato così semplice e divertente!<br><br>
-Competenze Acquisite:
+Competenze Maturate:
     Flutter: Sviluppo UI/UX, gestione stato con Provider, grafici (fl_chart), mappe (Google Maps).
     Firebase: Autenticazione, Firestore, storage.
     GPS: Tracciamento posizione in tempo reale.
