@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: security-monitoring
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: security-monitoring
+  template:
+    metadata:
+      labels:
+        app: security-monitoring
+    spec:
+      containers:
+      - name: backend
+        image: security-backend
+        ports:
+        - containerPort: 5000
+      - name: frontend
+        image: security-frontend
+        ports:
+        - containerPort: 3000
