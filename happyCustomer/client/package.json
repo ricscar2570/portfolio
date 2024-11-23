@@ -1,1 +1,29 @@
-{ "name": "client", "dependencies": { "react": "^18.2.0" } }
+
+// Package configuration for the React client
+{
+    "name": "client",
+    "version": "1.0.0",
+    "description": "Frontend for Happy Customer CRM",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "dependencies": {
+        "@reduxjs/toolkit": "^1.9.5",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-redux": "^8.1.0",
+        "react-router-dom": "^6.14.0"
+    },
+    "keywords": [
+        "React",
+        "CRM",
+        "Frontend",
+        "Redux"
+    ],
+    "author": "Riccardo Scaringi",
+    "license": "MIT"
+}

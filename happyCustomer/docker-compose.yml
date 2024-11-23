@@ -1,14 +1,59 @@
-version: '3'
+version: '3.8'
+
+
+
 services:
+
   server:
+
     build: ./server
+
+    container_name: happy-customer-server
+
     ports:
+
       - "5000:5000"
+
+    environment:
+
+      - MONGO_URI=mongodb://mongo:27017/happy-customer
+
+      - JWT_SECRET=your_jwt_secret
+
+    depends_on:
+
+      - mongo
+
+
+
   client:
+
     build: ./client
+
+    container_name: happy-customer-client
+
     ports:
+
       - "3000:3000"
+
+
+
   mongo:
+
     image: mongo
+
+    container_name: happy-customer-mongo
+
     ports:
+
       - "27017:27017"
+
+    volumes:
+
+      - mongo-data:/data/db
+
+
+
+volumes:
+
+  mongo-data:
