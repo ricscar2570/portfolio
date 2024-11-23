@@ -1,0 +1,12 @@
+version: '3'
+services:
+  suricata:
+    image: jasonish/suricata:latest
+    container_name: suricata
+    volumes:
+      - ./suricata.yaml:/etc/suricata/suricata.yaml
+      - /var/log/suricata:/var/log/suricata
+    ports:
+      - "3000:3000"
+      - "514:514/udp"
+    network_mode: host
