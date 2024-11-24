@@ -38,7 +38,7 @@ Questo contenitore è pensato per raccogliere progetti, notebook, articoli, riso
   - image_path: /assets/images/ProgettoMachineLearning.webp
     alt: "myEcommerce - Intelligent E-Commerce Platform"
     title: "myEcommerce - Intelligent E-Commerce Platform"
-    excerpt: "myEcommerce is an advanced and personalized e-commerce platform designed to offer an optimal shopping experience. The system integrates cutting-edge technologies, including Node.js backend, React frontend, machine learning for personalized recommendations, containerization with Docker, orchestration with Kubernetes, and monitoring tools like Prometheus and Grafana, to ensure a secure, scalable, and high-performance application."
+    excerpt: "myEcommerce is a personalized e-commerce platform designed to offer an optimal shopping experience. The system integrates cutting-edge technologies, including Node.js backend, React frontend, machine learning for personalized recommendations, containerization with Docker, orchestration with Kubernetes, and monitoring tools like Prometheus and Grafana, to ensure a secure, scalable, and high-performance application."
     url: "https://github.com/ricscar2570/portfolio/tree/main/myEcoomerce"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
@@ -46,7 +46,7 @@ Questo contenitore è pensato per raccogliere progetti, notebook, articoli, riso
     alt: "Progetto 2Digit"
     title: "Progetto 2Digit"
     excerpt: "🗂 Document Management System (DMS) - OCR & Full-Text Search<BR><BR>
-A robust Document Management System built in Delphi with SQLite for digitizing, categorizing, and indexing scanned documents. Leveraging OCR for text extraction and Full-Text Search capabilities, this app provides a powerful solution for organizing, searching, and exporting documents."
+A  Document Management System built in Delphi with SQLite for digitizing, categorizing, and indexing scanned documents. Leveraging OCR for text extraction and Full-Text Search capabilities, this app provides a powerful solution for organizing, searching, and exporting documents."
     url: "https://github.com/ricscar2570/portfolio/tree/main/2Digit"
     btn_label: "Scopri di più"
     btn_class: "btn--primary"
@@ -86,7 +86,7 @@ A robust Document Management System built in Delphi with SQLite for digitizing, 
     alt: "Progetto Fitness Tracker App"
     title: "Progetto Fitness Tracker App"
     excerpt: "Fitness Tracker App 🏋️‍♂️📱<br>
-Fitness Tracker App è un'applicazione mobile progettata per aiutarti a monitorare e migliorare il tuo benessere fisico. Registrare allenamenti, monitorare progressi, impostare obiettivi e partecipare a sfide sociali non è mai stato così semplice e divertente!<br><br>
+Fitness Tracker App è un'applicazione mobile progettata per aiutarti a monitorare e migliorare il tuo benessere fisico, registrare allenamenti, monitorare progressi, impostare obiettivi e partecipare a sfide sociali.<br><br>
 Competenze Maturate:
     Flutter: Sviluppo UI/UX, gestione stato con Provider, grafici (fl_chart), mappe (Google Maps).
     Firebase: Autenticazione, Firestore, storage.
