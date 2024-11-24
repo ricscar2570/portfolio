@@ -26,11 +26,11 @@ feature_row:
 Benvenuti nel mio repository su Data Analytics, Data Science, Machine Learning e Artificial Intelligence! 🚀
 Questo contenitore è pensato per raccogliere progetti, notebook, articoli, risorse e strumenti che mostrano competenze, approcci e tecnologie all'avanguardia nel mondo dei dati.."
     url: "https://github.com/ricscar2570/portfolio/tree/main/Some%20of%20My%20Data"
-    btn_label: "Scopri di più"
+    btn_label: "View more"
     btn_class: "btn--primary"
   - image_path: /assets/images/ProgettoDashboard.webp
     alt: "Project Interactive Dashboard"
-    title: "Progetto Interactive Dashboard"
+    title: "Project Interactive Dashboard"
     excerpt: "This dashboard enables users to explore and analyze complex datasets through interactive filters, dynamic charts, and customizable visualizations. It can be adapted to analyze business, demographic, financial, or any relevant data types."
     url: "https://github.com/ricscar2570/portfolio/blob/main/myDataExplored/"
     btn_label: "View more"
