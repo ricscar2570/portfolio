@@ -26,19 +26,6 @@ Earthquake Signal Detector è un progetto che utilizza dati satellitari e algori
     Credenziali Email (opzionali per notifiche):
         Configurare un account email SMTP (es. Gmail).
 
-## **Struttura del Progetto**
-
-Earthquake Signal Detector/
-│
-├── data/                # Dataset sincronizzati e con anomalie
-├── src/                 # Codice sorgente
-│   ├── main.py          # Pipeline principale
-│   ├── sync_data.py     # Sincronizzazione dati
-│   ├── detect_anomalies.py  # Analisi delle anomalie
-│   ├── train_model.py   # Addestramento modello predittivo
-│   └── notify.py        # Sistema di notifiche
-├── dashboard/           # Codice per dashboard interattiva
-└── README.md            # Documentazione del progetto
 
 ## **Come Eseguire il Progetto**
 1. Clona il Repository
