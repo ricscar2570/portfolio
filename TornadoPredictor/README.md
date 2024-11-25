@@ -5,7 +5,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-Live_Dashboard-brightgreen.svg)](https://streamlit.io/)
 [![OpenWeatherMap](https://img.shields.io/badge/OpenWeatherMap-API-orange.svg)](https://openweathermap.org/)
 
-**TornadoPredictor** è un progetto rivoluzionario che sfrutta l'intelligenza artificiale, dati meteorologici live e tecnologie interattive per prevedere, analizzare e visualizzare le trombe d'aria in tempo reale. Nato dalla fusione tra ricerca scientifica e ingegneria software, **TornadoPredictor** rappresenta un passo avanti nella mitigazione dei disastri naturali.
+**TornadoPredictor** è un progetto che sfrutta l'intelligenza artificiale, dati meteorologici live e tecnologie interattive per prevedere, analizzare e visualizzare le trombe d'aria in tempo reale. Nato dalla fusione tra ricerca scientifica e ingegneria software, **TornadoPredictor** rappresenta un passo avanti nella mitigazione dei disastri naturali.
 
 ---
 
@@ -35,7 +35,7 @@
 
 ## **🔬 Perché TornadoPredictor?**
 
-Ogni anno, le trombe d'aria causano danni incalcolabili e perdite di vite umane. Prevederle con precisione non è solo una sfida scientifica, ma un imperativo sociale. Con **TornadoPredictor**, portiamo la tecnologia al servizio della sicurezza, combinando:
+Ogni anno, le trombe d'aria causano danni incalcolabili e perdite di vite umane. Prevederle con precisione non è solo una sfida scientifica, ma un imperativo sociale. Con **TornadoPredictor**, la tecnologia è al servizio della sicurezza, combinando:
 - **Big Data Meteorologici**
 - **Modelli di Machine Learning**
 - **Visualizzazioni Intuitive**
