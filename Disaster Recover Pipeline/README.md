@@ -1,6 +1,6 @@
 # 🌍 Disaster Response Pipeline
 
-The **Disaster Response Pipeline** is a robust, scalable, and real-time platform designed to collect, process, analyze, and visualize critical data during natural disasters. With state-of-the-art machine learning models, IoT integrations, and interactive visualizations, this platform empowers emergency responders to make data-driven decisions quickly.
+The **Disaster Response Pipeline** is a scalable, and real-time platform designed to collect, process, analyze, and visualize critical data during natural disasters. With state-of-the-art machine learning models and interactive visualizations, this platform empowers emergency responders to make data-driven decisions quickly.
 
 ---
 
