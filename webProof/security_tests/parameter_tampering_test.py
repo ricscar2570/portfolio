@@ -1,45 +1,19 @@
-# security_tests/parameter_tampering_test.py
-
-# Test for URL parameter tampering vulnerabilities
-
-
-
 from selenium import webdriver
-
-from config import SITE_URL, DRIVER_PATH
-
+from webdriver_manager.chrome import ChromeDriverManager
 from utils.logger import log_result
 
-
-
-def test_parameter_tampering():
-
-    \"\"\"
-
+def test_parameter_tampering(site_url):
+    """
     Tests for unauthorized access by manipulating URL parameters.
+    """
+    driver = webdriver.Chrome(ChromeDriverManager().install())
+    driver.get(f"{site_url}/account?id=1")
 
-    \"\"\"
-
-    driver = webdriver.Chrome(DRIVER_PATH)
-
-    driver.get(SITE_URL + "/account?id=1")
-
-
-
-    # Attempt to access another account by changing the parameter
-
-    driver.get(SITE_URL + "/account?id=2")
-
-
+    driver.get(f"{site_url}/account?id=2")
 
     if "Access denied" in driver.page_source:
-
         log_result("PASS: Parameter tampering is blocked.")
-
     else:
-
         log_result("FAIL: Parameter tampering is allowed.")
-
-
 
     driver.quit()

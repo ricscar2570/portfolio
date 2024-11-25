@@ -1,4 +1,4 @@
-# main.py
+import sys
 from security_tests.auth_test import test_auth
 from security_tests.sql_injection import test_sql_injection
 from security_tests.xss_test import test_xss
@@ -12,21 +12,36 @@ from security_tests.parameter_tampering_test import test_parameter_tampering
 from security_tests.rate_limiting_test import test_rate_limiting
 from utils.report import generate_report
 
-def run_all_tests():
-    print("Starting WebProof security tests...")
-    test_auth()
-    test_sql_injection()
-    test_xss()
-    test_session_security()
-    test_http_headers()
-    test_directory_traversal()
-    test_brute_force()
-    test_csrf_protection()
-    test_file_upload()
-    test_parameter_tampering()
-    test_rate_limiting()
+
+def run_all_tests(site_url):
+    """
+    Executes all security tests sequentially and generates a final report.
+    """
+    print(f"Starting WebProof security tests for {site_url}...\n")
+
+    # Pass the site_url to each test function
+    test_auth(site_url)
+    #test_sql_injection(site_url)
+    test_xss(site_url)
+    test_session_security(site_url)
+    test_http_headers(site_url)
+    test_directory_traversal(site_url)
+    test_brute_force(site_url)
+    test_csrf_protection(site_url)
+    test_file_upload(site_url)
+    test_parameter_tampering(site_url)
+    test_rate_limiting(site_url)
+
+    # Generate a consolidated report
     generate_report()
-    print("All tests completed. Report generated.")
+    print("\nAll tests completed. Report has been generated.")
+
 
 if __name__ == "__main__":
-    run_all_tests()
+    if len(sys.argv) < 2:
+        print("Usage: python main.py <SITE_URL>")
+        site_url = input("Enter the URL of the site to test: ").strip()
+    else:
+        site_url = sys.argv[1].strip()
+
+    run_all_tests(site_url)
