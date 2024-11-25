@@ -44,15 +44,6 @@ In **JBubbleBobble**, you play as a bubble-blowing hero navigating through excit
 - **Observer Pattern**: Dynamic updates between game objects.
 - **Stream API**: Efficient handling of in-game data.
 
----
-
-## 📂 Project Structure
-
-JBubbleBobble/ │ ├── src/ │ ├── model/ # Core game logic (Player, Enemies, Bubbles) │ ├── view/ # GUI components (GamePanel, GameWindow) │ ├── controller/ # Input handling and game controls │ ├── resources/ │ ├── images/ # Sprites for characters and objects │ ├── audio/ # Sound effects for gameplay │ ├── docs/ │ └── UML diagrams, Javadoc
-
-
----
-
 ## 🎉 How to Play
 1. **Clone the Repository**:
    ```bash
