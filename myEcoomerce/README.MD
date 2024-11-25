@@ -122,7 +122,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 
 # Recreate the Markmap Markdown file
-markdown_content = """
+
 # Architettura di myEcommerce
 
 ## Frontend
@@ -191,14 +191,5 @@ markdown_content = """
 - **Report**
   - Analisi delle vendite
   - Grafici e insight
-"""
-
-# Save the markdown file
-markdown_file_path = "/mnt/data/myecommerce_markmap.md"
-with open(markdown_file_path, "w") as markdown_file:
-    markdown_file.write(markdown_content)
-
-# Provide the file path for download
-markdown_file_path
 
 
