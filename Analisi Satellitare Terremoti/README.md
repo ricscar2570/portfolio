@@ -20,13 +20,13 @@ Earthquake Signal Detector è un progetto che utilizza dati satellitari e algori
 ## **Requisiti di Sistema**
 - **Python 3.8 o superiore**
 - Librerie Python necessarie:
-  ```bash
+ 
   pip install pandas numpy matplotlib scikit-learn requests geopandas folium streamlit
 
     Credenziali Email (opzionali per notifiche):
         Configurare un account email SMTP (es. Gmail).
 
-Struttura del Progetto
+## **Struttura del Progetto**
 
 Earthquake Signal Detector/
 │
@@ -40,7 +40,7 @@ Earthquake Signal Detector/
 ├── dashboard/           # Codice per dashboard interattiva
 └── README.md            # Documentazione del progetto
 
-Come Eseguire il Progetto
+## **Come Eseguire il Progetto**
 1. Clona il Repository
 
 git clone https://github.com/<tuo-username>/earthquake-signal-detector.git
@@ -81,13 +81,13 @@ Tecnologie Utilizzate
     Streamlit & Folium: Creazione di dashboard interattive.
     SMTP: Invio notifiche via email.
 
-Prossimi Sviluppi
+## Prossimi Sviluppi
 
     Integrare notifiche tramite Telegram o altri servizi.
     Migliorare la predizione del modello tramite ottimizzazione degli iperparametri.
     Estendere il dataset per coprire regioni geografiche più ampie.
 
-Contributi
+## Contributi
 
 Contributi, bug report e suggerimenti sono benvenuti! Crea una issue o invia una pull request su GitHub.
 Licenza
@@ -95,6 +95,6 @@ Licenza
 Questo progetto è rilasciato sotto licenza MIT. Vedi il file LICENSE per maggiori dettagli.
 Contatti
 
-    Email: tuo-email@example.com
-    GitHub: https://github.com/<tuo-username>
+    Email: ricscar@gmail.com
+
 
