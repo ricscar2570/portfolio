@@ -1,43 +1,52 @@
-🌪️ TornadoPredictor: Un'Intelligenza Artificiale per Prevedere le Catastrofi Naturali
+# 🌪️ **TornadoPredictor: Un'Intelligenza Artificiale per Prevedere le Catastrofi Naturali**
 
-TornadoPredictor è un progetto rivoluzionario che sfrutta l'intelligenza artificiale, dati meteorologici live e tecnologie interattive per prevedere, analizzare e visualizzare le trombe d'aria in tempo reale. Nato dalla fusione tra ricerca scientifica e ingegneria software, TornadoPredictor rappresenta un passo avanti nella mitigazione dei disastri naturali.
-🌀 Caratteristiche Principali
-1. Raccolta Dati Live
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.9+-yellow.svg)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Live_Dashboard-brightgreen.svg)](https://streamlit.io/)
+[![OpenWeatherMap](https://img.shields.io/badge/OpenWeatherMap-API-orange.svg)](https://openweathermap.org/)
 
-    Integrazione con l'API OpenWeatherMap per raccogliere dati meteorologici in tempo reale.
-    Validazione automatica dei dati per garantire accuratezza e consistenza.
+**TornadoPredictor** è un progetto rivoluzionario che sfrutta l'intelligenza artificiale, dati meteorologici live e tecnologie interattive per prevedere, analizzare e visualizzare le trombe d'aria in tempo reale. Nato dalla fusione tra ricerca scientifica e ingegneria software, **TornadoPredictor** rappresenta un passo avanti nella mitigazione dei disastri naturali.
 
-2. Predizione Basata su Modelli Avanzati
+---
 
-    Utilizzo di modelli di Machine Learning (XGBoost) per la classificazione delle trombe d'aria.
-    Retraining automatico con nuovi dati grazie a una pipeline ETL integrata.
+## **🌀 Caratteristiche Principali**
 
-3. Visualizzazione Interattiva
+### **1. Raccolta Dati Live**
+- Integrazione con l'API OpenWeatherMap per raccogliere dati meteorologici in tempo reale.
+- Validazione automatica dei dati per garantire accuratezza e consistenza.
 
-    Mappa live con layer dinamici per precipitazioni e velocità del vento.
-    Filtri regionali per analizzare specifiche aree geografiche.
-    Grafici avanzati, incluse heatmap delle correlazioni e scatterplot dinamici.
+### **2. Predizione Basata su Modelli Avanzati**
+- Utilizzo di modelli di Machine Learning (XGBoost) per la classificazione delle trombe d'aria.
+- Retraining automatico con nuovi dati grazie a una pipeline ETL integrata.
 
-4. Sincronizzazione Regionale
+### **3. Visualizzazione Interattiva**
+- Mappa live con layer dinamici per precipitazioni e velocità del vento.
+- Filtri regionali per analizzare specifiche aree geografiche.
+- Grafici avanzati, incluse heatmap delle correlazioni e scatterplot dinamici.
 
-    Filtraggio dei dati radar e meteorologici in base a selezioni geografiche definite dall'utente.
+### **4. Sincronizzazione Regionale**
+- Filtraggio dei dati radar e meteorologici in base a selezioni geografiche definite dall'utente.
 
-5. Monitoraggio e Notifiche
+### **5. Monitoraggio e Notifiche**
+- Dashboard interattiva per monitorare lo stato della pipeline.
+- Notifiche email per segnalare errori o completamenti.
 
-    Dashboard interattiva per monitorare lo stato della pipeline.
-    Notifiche email per segnalare errori o completamenti.
+---
 
-🔬 Perché TornadoPredictor?
+## **🔬 Perché TornadoPredictor?**
 
-Ogni anno, le trombe d'aria causano danni incalcolabili e perdite di vite umane. Prevederle con precisione non è solo una sfida scientifica, ma un imperativo sociale. Con TornadoPredictor, portiamo la tecnologia al servizio della sicurezza, combinando:
-
-    Big Data Meteorologici
-    Modelli di Machine Learning
-    Visualizzazioni Intuitive
+Ogni anno, le trombe d'aria causano danni incalcolabili e perdite di vite umane. Prevederle con precisione non è solo una sfida scientifica, ma un imperativo sociale. Con **TornadoPredictor**, portiamo la tecnologia al servizio della sicurezza, combinando:
+- **Big Data Meteorologici**
+- **Modelli di Machine Learning**
+- **Visualizzazioni Intuitive**
 
 Questo progetto mira a fornire strumenti accessibili e accurati per mitigare gli impatti delle trombe d'aria.
-📋 Architettura
 
+---
+
+## **📋 Architettura**
+
+```plaintext
 📂 TornadoPredictor
 ├── 📁 data              # Dati grezzi e pre-processati
 ├── 📁 models            # Modelli ML salvati
