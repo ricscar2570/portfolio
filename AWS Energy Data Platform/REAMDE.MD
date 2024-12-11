@@ -3,7 +3,7 @@
 ## Overview
 The **AWS Energy Data Platform** is a robust, scalable solution for monitoring, analyzing, and optimizing energy data in real time. Built entirely on AWS services, it leverages IoT, big data, and machine learning to help industrial facilities optimize energy usage, predict anomalies, and visualize critical metrics. The platform is designed to seamlessly integrate with modern industrial setups, ensuring flexibility and scalability.
 
-![AWS Energy Data Platform Architecture](https://example.com/architecture-diagram.png)
+AWS Energy Data Platform Architecture]
 
 ## Features
 - **Real-Time Data Collection**: Leverages AWS IoT Core and Amazon Kinesis for seamless streaming of energy data from industrial sensors. This ensures immediate availability of data for analysis and decision-making.
@@ -61,7 +61,7 @@ Ensure you have:
 ### Installation Steps
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/aws-energy-data-platform.git
+   git clone https://github.com/ricscar2570/aws-energy-data-platform.git
    cd aws-energy-data-platform
    ```
 2. **Install Dependencies**:
@@ -91,7 +91,7 @@ Ensure you have:
 }
 ```
 #### Data Flow:
-![Data Flow](https://example.com/data-flow-diagram.png)
+![Data Flow]
 
 ---
 
@@ -153,7 +153,7 @@ Create interactive dashboards using **Amazon QuickSight** to monitor KPIs such a
 #### Customizable Dashboards:
 Dashboards can be tailored to display specific metrics for different stakeholders, such as operational teams, managers, or compliance officers.
 
-![Dashboard Example](https://example.com/dashboard-screenshot.png)
+![Dashboard Example]
 
 ---
 
@@ -193,12 +193,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-## Contact
-For any questions or feedback, feel free to reach out:
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
 
----
 
-### Note
-Replace placeholders like `your-iot-endpoint.amazonaws.com`, `your-account-id`, and URLs with actual project details and links to hosted resources or diagrams.
+
