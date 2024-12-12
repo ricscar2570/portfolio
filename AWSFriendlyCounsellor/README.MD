@@ -1,6 +1,6 @@
 # 🌟 **AWS Friendly Counsellor** 🌟
 
-![AWS Friendly Counsellor](https://via.placeholder.com/728x90.png?text=AWS+Friendly+Counsellor)
+![AWS Friendly Counsellor](https://github.com/ricscar2570/portfolio/blob/main/AWSFriendlyCounsellor/Senza%20titolo.jpg)
 
 ## 📝 **Descrizione**
 **AWS Friendly Counsellor** è un'applicazione progettata per guidare **startup**, **piccole imprese** e **utenti meno esperti** nella pianificazione e utilizzo dei servizi **AWS**. Con un'interfaccia intuitiva e raccomandazioni proattive, l'app aiuta a esplorare le possibilità offerte da AWS in modo semplice, educativo e divertente.
