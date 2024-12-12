@@ -39,7 +39,7 @@
 🎯 Sector Guru 🛠️ AWS Explorer 📊 Data Driven
 
 
----
+
 
 ### 🛍️ **4. Collegamenti con il Marketplace AWS**
 - Ogni servizio suggerito include un **link diretto** al Marketplace AWS per esplorare strumenti correlati.
@@ -83,7 +83,7 @@ Esempio:
 ## 🚧 **Installazione**
 
 ### 🖥️ **Clona il Repository**
-```bash
+
 git clone https://github.com/your-repo/aws-friendly-counsellor.git
 cd aws-friendly-counsellor
 
