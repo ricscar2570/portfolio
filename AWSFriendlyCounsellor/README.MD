@@ -60,7 +60,7 @@ Esempio:
 - Visualizza costi stimati e raccomandazioni in **grafici interattivi**.
 - Genera report PDF dettagliati per presentazioni interne.
 
-![Grafico di esempio](https://via.placeholder.com/400x200.png?text=Grafico+Costi+Stimati)
+![Grafico di esempio](https://github.com/ricscar2570/portfolio/blob/main/AWSFriendlyCounsellor/Senza%20titolo2.jpg)
 
 ---
 
