@@ -62,9 +62,10 @@
 - **Linguaggi**: Python (ETL, Lambda), JavaScript (Frontend).  
 
 ---
-```mermaid
+
 ## 🚀 **Come Funziona?**
 
+```mermaid
 graph TD;
     A[Ingestione Dati] -->|Lambda| B[Archiviazione in S3];
     B -->|Glue Job| C[Trasformazione dei Dati];
