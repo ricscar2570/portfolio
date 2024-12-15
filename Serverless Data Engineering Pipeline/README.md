@@ -67,12 +67,13 @@
 
 ```mermaid
 graph TD
-    A[Ingestione Dati] -->|Lambda| B[Archiviazione in S3]
-    B -->|Glue Job| C[Trasformazione dei Dati]
-    C -->|Glue Job| D[Dataset ML-ready]
-    D -->|SageMaker| E[Addestramento Modello]
-    E -->|Endpoint| F[Predizioni]
-    F -->|API REST| G[Dashboard React]
+    A[Ingestione Dati Lambda] --> B[Archiviazione in S3]
+    B --> C[Trasformazione Dati Glue]
+    C --> D[Dataset ML-ready Glue]
+    D --> E[Addestramento Modello SageMaker]
+    E --> F[Predizioni in Tempo Reale SageMaker Endpoint]
+    F --> G[Dashboard React]
+  
 
     Raccolta dati: I dispositivi inviano dati a un endpoint gestito da Lambda.
     Archiviazione: I dati vengono salvati in S3.
