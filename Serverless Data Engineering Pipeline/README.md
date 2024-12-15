@@ -21,15 +21,38 @@
 
 ### **Diagramma dell'Architettura**
 
-```mermaid
-graph TD
-    A[Ingestione Dati Lambda] --> B[Archiviazione in S3]
-    B --> C[Trasformazione Dati Glue]
-    C --> D[Dataset ML-ready Glue]
-    D --> E[Addestramento Modello SageMaker]
-    E --> F[Predizioni in Tempo Reale SageMaker Endpoint]
-    F --> G[Dashboard React]
-```
+sequenceDiagram
+    participant User as Dispositivo/Utente
+    participant LambdaIngest as Lambda Ingestione Dati
+    participant S3 as S3 Archiviazione Dati
+    participant Glue as Glue ETL
+    participant SageMaker as SageMaker
+    participant Dashboard as Dashboard React
+
+    User->>LambdaIngest: Invio Dati (POST)
+    activate LambdaIngest
+    LambdaIngest->>S3: Salva dati grezzi
+    deactivate LambdaIngest
+    
+    S3->>Glue: Trigger ETL Job
+    activate Glue
+    Glue-->>S3: Salva dati trasformati
+    deactivate Glue
+    
+    S3->>SageMaker: Fornisce dati per l'addestramento
+    activate SageMaker
+    SageMaker-->>S3: Salva modello addestrato
+    deactivate SageMaker
+
+    User->>SageMaker: Richiesta di predizioni
+    activate SageMaker
+    SageMaker->>User: Restituisce predizione
+    deactivate SageMaker
+
+    User->>Dashboard: Visualizza dati e predizioni
+    activate Dashboard
+    deactivate Dashboard
+'''
 
 1. **AWS Lambda**: Funzioni per ingestione dati e inferenze in tempo reale.
 2. **Amazon S3**: Archiviazione per dati grezzi, trasformati e dataset ML-ready.
