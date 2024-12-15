@@ -1,6 +1,6 @@
 # 🚀 Serverless Data Engineering Pipeline
 
-[![AWS](https://img.shields.io/badge/AWS-Serverless-orange?logo=amazonaws&style=flat-square)](https://aws.amazon.com/) 
+[![AWS]([https://img.shields.io/badge/AWS-Serverless-orange?logo=amazonaws&style=flat-square)](https://aws.amazon.com/](https://github.com/ricscar2570/portfolio/blob/main/Serverless%20Data%20Engineering%20Pipeline/Serverless.png?raw=true)) 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 [![Contributors](https://img.shields.io/github/contributors/your-repo?color=green&style=flat-square)](https://github.com/your-repo)
 
@@ -21,7 +21,15 @@
 
 ### **Diagramma dell'Architettura**
 
-![Architecture Diagram](https://via.placeholder.com/900x500.png?text=Architecture+Diagram)
+```mermaid
+graph TD
+    A[Ingestione Dati Lambda] --> B[Archiviazione in S3]
+    B --> C[Trasformazione Dati Glue]
+    C --> D[Dataset ML-ready Glue]
+    D --> E[Addestramento Modello SageMaker]
+    E --> F[Predizioni in Tempo Reale SageMaker Endpoint]
+    F --> G[Dashboard React]
+```
 
 1. **AWS Lambda**: Funzioni per ingestione dati e inferenze in tempo reale.
 2. **Amazon S3**: Archiviazione per dati grezzi, trasformati e dataset ML-ready.
@@ -65,15 +73,7 @@
 
 ## 🚀 **Come Funziona?**
 
-```mermaid
-graph TD
-    A[Ingestione Dati Lambda] --> B[Archiviazione in S3]
-    B --> C[Trasformazione Dati Glue]
-    C --> D[Dataset ML-ready Glue]
-    D --> E[Addestramento Modello SageMaker]
-    E --> F[Predizioni in Tempo Reale SageMaker Endpoint]
-    F --> G[Dashboard React]
-```
+
 ```
     Raccolta dati: I dispositivi inviano dati a un endpoint gestito da Lambda.
     Archiviazione: I dati vengono salvati in S3.
