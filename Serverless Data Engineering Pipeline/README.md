@@ -21,6 +21,7 @@
 
 ### **Diagramma dell'Architettura**
 
+'''mermaid
 sequenceDiagram
     participant User as Dispositivo/Utente
     participant LambdaIngest as Lambda Ingestione Dati
