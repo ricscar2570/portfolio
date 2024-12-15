@@ -74,7 +74,7 @@ graph TD
     E --> F[Predizioni in Tempo Reale SageMaker Endpoint]
     F --> G[Dashboard React]
 ```
-
+```
     Raccolta dati: I dispositivi inviano dati a un endpoint gestito da Lambda.
     Archiviazione: I dati vengono salvati in S3.
     ETL: Glue trasforma e prepara i dati per il machine learning.
