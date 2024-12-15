@@ -73,7 +73,7 @@ graph TD
     D --> E[Addestramento Modello SageMaker]
     E --> F[Predizioni in Tempo Reale SageMaker Endpoint]
     F --> G[Dashboard React]
-  
+```mermaid
 
     Raccolta dati: I dispositivi inviano dati a un endpoint gestito da Lambda.
     Archiviazione: I dati vengono salvati in S3.
