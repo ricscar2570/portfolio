@@ -62,7 +62,7 @@
 - **Linguaggi**: Python (ETL, Lambda), JavaScript (Frontend).  
 
 ---
-'''Mermaid
+```mermaid
 ## 🚀 **Come Funziona?**
 
 graph TD;
