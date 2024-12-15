@@ -104,6 +104,8 @@ graph TD
 ├── README.md
 ├── LICENSE
 
+```
+
 📈 Grafici e Visualizzazioni
 Predizioni nel Tempo
 
