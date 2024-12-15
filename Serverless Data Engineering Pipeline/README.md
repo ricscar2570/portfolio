@@ -21,7 +21,7 @@
 
 ### **Diagramma dell'Architettura**
 
-'''mermaid
+```mermaid
 sequenceDiagram
     participant User as Dispositivo/Utente
     participant LambdaIngest as Lambda Ingestione Dati
@@ -53,7 +53,7 @@ sequenceDiagram
     User->>Dashboard: Visualizza dati e predizioni
     activate Dashboard
     deactivate Dashboard
-'''
+```
 
 1. **AWS Lambda**: Funzioni per ingestione dati e inferenze in tempo reale.
 2. **Amazon S3**: Archiviazione per dati grezzi, trasformati e dataset ML-ready.
