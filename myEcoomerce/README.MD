@@ -1,6 +1,6 @@
 # myEcommerce - Intelligent E-Commerce Platform
 
-myEcommerce is an advanced and personalized e-commerce platform designed to offer an optimal shopping experience. The system integrates cutting-edge technologies, including **Node.js backend**, **React frontend**, **machine learning for personalized recommendations**, **containerization with Docker**, **orchestration with Kubernetes**, and **monitoring tools** like **Prometheus and Grafana**, to ensure a secure, scalable, and high-performance application.
+myEcommerce is an advanced and personalized e-commerce platform designed to offer an optimal shopping experience. The system integrates technologies, including **Node.js backend**, **React frontend**, **machine learning for personalized recommendations**, **containerization with Docker**, **orchestration with Kubernetes**, and **monitoring tools** like **Prometheus and Grafana**, to ensure a secure, scalable, and high-performance application.
 
 ## Learning Objectives
 
