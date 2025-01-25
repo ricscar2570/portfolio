@@ -140,3 +140,20 @@ Why Choose That'sAllCloud?
 With its seamless integration of multi-cloud resource management, real-time monitoring, and scalable infrastructure, That'sAllCloud simplifies cloud operations for teams and enterprises. Whether you're optimizing costs, improving resource visibility, or scaling your operations, this platform provides the tools you need to succeed in today’s dynamic cloud ecosystem.
 
 Start managing your cloud resources with confidence today!
+
+
+Further details:
+That'sAllCloud is a cloud resource management platform that enables users to monitor and manage resources across multiple cloud service providers, such as AWS, Azure, and Google Cloud Platform. It consists of a backend developed in Node.js with Express.js, serving as an API server to handle and monitor resources, and a frontend built with React.js, offering a simple and interactive user interface. For deployment and monitoring, it leverages tools such as Docker, Kubernetes, Prometheus, and Grafana.
+
+The software allows users to authenticate using their Google account via OAuth 2.0. This process is managed by the backend, which uses Passport.js to ensure a secure connection. Once authenticated, user details, such as name and email, are stored in a MongoDB database. Users can then authorize the application to connect to their cloud accounts and access data related to resources distributed across the various providers.
+
+On the backend side, the application communicates with AWS services via the Cost Explorer API, with Azure through the Azure Resource Manager, and with Google Cloud Platform using the Google Cloud Resource Manager API. These services enable the collection of information such as resource costs and usage, which are then displayed on the frontend. For each cloud provider, the backend exposes dedicated APIs that are called by the frontend to fetch and display the requested information.
+
+In the frontend, the application features a dashboard that aggregates information about active resources, showing details on costs and resource usage. The dashboard also integrates a monitoring system that uses Prometheus to collect metrics from the backend, such as CPU usage and the number of HTTP requests, and Grafana to visualize these metrics in interactive charts.
+
+From a deployment perspective, the software utilizes Kubernetes to manage containers, ensuring scalability and high availability. Kubernetes handles load balancing and auto-scaling of pods based on demand using a Horizontal Pod Autoscaler configured for the backend. Secure connections are ensured through TLS certificates provided by Let's Encrypt, configured using an Ingress Controller.
+
+For cost optimization, the application allows users to analyze spending data provided by AWS, Azure, and GCP. Additionally, the project includes an example Terraform configuration for the automated provisioning of cloud resources, such as an EC2 virtual machine on AWS.
+
+In summary, That'sAllCloud is designed to simplify multi-cloud resource management, ensure scalability and security, and provide users with complete control over their cloud environments through a unified platform. If you'd like to delve deeper into the functionality of a specific component, I can provide further details.
+
