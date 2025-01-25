@@ -1,14 +1,14 @@
 # That'sAllCloud
 
-**That'sAllCloud** is a comprehensive cloud resource management platform that empowers users to effortlessly monitor and manage their resources across AWS, Azure, and Google Cloud Platform (GCP). Designed for simplicity and scalability, it includes secure Google OAuth authentication, real-time monitoring through Prometheus and Grafana, and Kubernetes-based scalable deployments.
+**That'sAllCloud** is a cloud resource management platform that empowers users to monitor and manage their resources across AWS, Azure, and Google Cloud Platform (GCP). Designed for simplicity and scalability, it includes secure Google OAuth authentication, real-time monitoring through Prometheus and Grafana, and Kubernetes-based scalable deployments.
 
 ---
 
 ## Features
 
-**That'sAllCloud** offers a suite of powerful features tailored for modern cloud management:
+**That'sAllCloud** offers a suite of features tailored for modern cloud management:
 
-- **Cloud Resource Management**: Monitor and manage distributed cloud resources seamlessly across multiple providers.
+- **Cloud Resource Management**: Monitor and manage distributed cloud resources across multiple providers.
 - **Secure Google OAuth 2.0 Authentication**: Ensure safe and streamlined login with your Google account.
 - **Real-Time Monitoring and Metrics**: Collect and visualize resource usage metrics using Prometheus and Grafana.
 - **Scalability with Kubernetes**: Benefit from automated instance replication and scalable deployments.
@@ -35,7 +35,7 @@ This platform is built using cutting-edge technologies to deliver reliability, s
 Follow these steps to set up and run **That'sAllCloud** on your local or cloud environment.
 
 ### 1. Clone the Repository
-```bash
+
 git clone https://github.com/your-username/ThatsAllCloud.git
 cd ThatsAllCloud
 
