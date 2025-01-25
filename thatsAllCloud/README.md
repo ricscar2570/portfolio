@@ -39,13 +39,13 @@ Follow these steps to set up and run **That'sAllCloud** on your local or cloud e
 git clone https://github.com/your-username/ThatsAllCloud.git
 cd ThatsAllCloud
 
-2. Install Dependencies
+### 2. Install Dependencies
 
 Navigate to the backend directory and install the required packages:
 
 npm install
 
-3. Configure Environment Variables
+### 3. Configure Environment Variables
 
 Create a .env file in the root directory and add the following:
 
@@ -56,7 +56,7 @@ GOOGLE_CLIENT_SECRET=your_google_client_secret
 GOOGLE_CALLBACK_URL=http://localhost:5000/auth/google/callback
 
 Replace your_mongodb_connection_string, your_google_client_id, and your_google_client_secret with your credentials.
-4. Run the Application Locally
+### 4. Run the Application Locally
 
 Start the backend server:
 
