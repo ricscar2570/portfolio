@@ -1,41 +1,53 @@
 # That'sAllCloud
 
-**That'sAllCloud** è una piattaforma di gestione delle risorse cloud che consente agli utenti di monitorare e gestire facilmente le risorse su AWS, Azure e Google Cloud Platform (GCP). Il progetto include funzionalità di autenticazione tramite Google OAuth, monitoring in tempo reale tramite Prometheus e Grafana, e deployment scalabile su Kubernetes.
+**That'sAllCloud** is a comprehensive cloud resource management platform that empowers users to effortlessly monitor and manage their resources across AWS, Azure, and Google Cloud Platform (GCP). Designed for simplicity and scalability, it includes secure Google OAuth authentication, real-time monitoring through Prometheus and Grafana, and Kubernetes-based scalable deployments.
 
-## Funzionalità
+---
 
-- **Gestione delle risorse**: Monitoraggio e gestione di risorse cloud distribuite.
-- **Autenticazione Google OAuth 2.0**: Accesso sicuro tramite il proprio account Google.
-- **Monitoring e Metriche**: Raccoglie e visualizza metriche di utilizzo delle risorse tramite Prometheus e Grafana.
-- **Scalabilità con Kubernetes**: Deployment scalabile con replica automatica delle istanze.
-- **Containerizzazione con Docker**: Immagini Docker ottimizzate per il backend.
+## Features
 
-## Tecnologie Utilizzate
+**That'sAllCloud** offers a suite of powerful features tailored for modern cloud management:
 
-- **Frontend**: React.js
-- **Backend**: Node.js, Express, Mongoose
-- **Database**: MongoDB
-- **Autenticazione**: Passport.js con Google OAuth 2.0
-- **Monitoring**: Prometheus e Grafana
-- **Deployment**: Docker e Kubernetes
+- **Cloud Resource Management**: Monitor and manage distributed cloud resources seamlessly across multiple providers.
+- **Secure Google OAuth 2.0 Authentication**: Ensure safe and streamlined login with your Google account.
+- **Real-Time Monitoring and Metrics**: Collect and visualize resource usage metrics using Prometheus and Grafana.
+- **Scalability with Kubernetes**: Benefit from automated instance replication and scalable deployments.
+- **Containerization with Docker**: Leverage optimized Docker images for backend services, ensuring portability and performance.
 
-## Configurazione del Progetto
+---
 
-### 1. Clonazione del Repository
+## Technology Stack
 
-bash
+This platform is built using cutting-edge technologies to deliver reliability, scalability, and ease of use:
+
+- **Frontend**: React.js for a dynamic and responsive user interface.
+- **Backend**: Node.js with Express.js and Mongoose for efficient API handling and database operations.
+- **Database**: MongoDB for scalable and high-performance data storage.
+- **Authentication**: Passport.js with Google OAuth 2.0 for secure user management.
+- **Monitoring**: Prometheus for real-time metrics collection and Grafana for interactive visualizations.
+- **Deployment**: Docker and Kubernetes for containerized, scalable infrastructure.
+- **Infrastructure Automation**: Terraform for seamless cloud resource provisioning.
+
+---
+
+## Getting Started
+
+Follow these steps to set up and run **That'sAllCloud** on your local or cloud environment.
+
+### 1. Clone the Repository
+```bash
 git clone https://github.com/your-username/ThatsAllCloud.git
 cd ThatsAllCloud
 
-### 2. Installazione delle Dipendenze
+2. Install Dependencies
 
-Nella directory del backend:
+Navigate to the backend directory and install the required packages:
 
 npm install
 
-### 3. Configurazione delle Variabili d’Ambiente
+3. Configure Environment Variables
 
-Crea un file .env nella cartella principale del progetto e aggiungi le seguenti variabili d’ambiente:
+Create a .env file in the root directory and add the following:
 
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
@@ -43,42 +55,38 @@ GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
 GOOGLE_CALLBACK_URL=http://localhost:5000/auth/google/callback
 
-Sostituisci your_mongodb_connection_string, your_google_client_id, e your_google_client_secret con i tuoi valori.
-### 4. Avvio dell'Applicazione in Locale
+Replace your_mongodb_connection_string, your_google_client_id, and your_google_client_secret with your credentials.
+4. Run the Application Locally
+
+Start the backend server:
 
 node server.js
 
-L’app sarà disponibile su http://localhost:5000.
-Deployment
-Docker
-
-    Costruzione dell’Immagine Docker:
+The application will be accessible at: http://localhost:5000.
+Docker Deployment
+Build the Docker Image
 
 docker build -t thatsallcloud-backend:latest .
 
-Esecuzione del Container:
+Run the Docker Container
 
-    docker run -p 5000:5000 thatsallcloud-backend:latest
+docker run -p 5000:5000 thatsallcloud-backend:latest
 
-Kubernetes
+Kubernetes Deployment
 
-    Assicurati di avere un cluster Kubernetes attivo e kubectl configurato.
-
-    Applica la configurazione Kubernetes:
+Ensure you have an active Kubernetes cluster and kubectl configured. Then apply the configuration files:
 
 kubectl apply -f k8s/deployment.yaml
 
-Verifica lo stato dei pod e del servizio:
+Check the status of pods and services:
 
-    kubectl get pods
-    kubectl get services
+kubectl get pods
+kubectl get services
 
-Monitoring con Prometheus e Grafana
-Configurazione di Prometheus
+Real-Time Monitoring with Prometheus and Grafana
+Prometheus Configuration
 
-    Crea una cartella prometheus e aggiungi il file prometheus.yml con la configurazione per raccogliere metriche da localhost:5000.
-
-# prometheus/prometheus.yml
+    Create a prometheus folder and add a prometheus.yml file:
 
 global:
   scrape_interval: 15s
@@ -88,51 +96,47 @@ scrape_configs:
     static_configs:
       - targets: ['localhost:5000']
 
-Esegui Prometheus:
+Run Prometheus:
 
     docker run -d -p 9090:9090 -v $(pwd)/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
 
-    Prometheus sarà accessibile su http://localhost:9090.
+Prometheus will be available at: http://localhost:9090.
+Grafana Configuration
 
-Configurazione di Grafana
-
-    Esegui Grafana:
+    Run Grafana:
 
     docker run -d -p 3000:3000 grafana/grafana
 
-    Accedi a Grafana su http://localhost:3000 (username e password predefiniti: admin).
+    Access Grafana at: http://localhost:3000 (default credentials: username admin, password admin).
 
-    Aggiungi Prometheus come fonte dati in Grafana:
-        Vai su Configuration > Data Sources > Add data source.
-        Seleziona Prometheus e inserisci http://localhost:9090 come URL.
+    Add Prometheus as a data source:
+        Navigate to Configuration > Data Sources > Add data source.
+        Select Prometheus and use http://localhost:9090 as the URL.
 
-    Crea una dashboard e aggiungi query come node_cpu_seconds_total per monitorare l'utilizzo della CPU.
+    Create dashboards and use queries like node_cpu_seconds_total to monitor metrics.
 
+How to Use
 
+    Authentication: Log in using Google OAuth at http://localhost:5000/auth/google.
+    Resource Management: Once logged in, access http://localhost:5000/api/resources to view and manage cloud resources.
+    Monitoring: Use Grafana to monitor backend metrics in real time.
 
-### Come Usare l'Applicazione
+Contributing
 
-    Autenticazione: L’applicazione offre autenticazione tramite Google OAuth. Visita http://localhost:5000/auth/google per autenticarti.
-    Gestione delle Risorse: Una volta autenticato, accedi a http://localhost:5000/api/resources per visualizzare le risorse.
-    Monitoring: Utilizza Grafana per monitorare le metriche del backend.
+We welcome contributions to improve That'sAllCloud! To contribute:
 
-### Contribuire
+    Fork the repository.
+    Create a new branch:
 
-Se vuoi contribuire al progetto, sentiti libero di fare un fork del repository, creare un branch e inviare una pull request.
+    git checkout -b feature/your-feature-name
 
-git checkout -b feature/your-feature-name
+    Submit a pull request with a detailed description of your changes.
 
-### Licenza
+License
 
-Questo progetto è rilasciato sotto la MIT License.
+This project is licensed under the MIT License.
+Why Choose That'sAllCloud?
 
-Grazie per aver esplorato That'sAllCloud! Speriamo che trovi utile questa piattaforma per la gestione delle risorse cloud.Una piattaforma di gestione delle risorse cloud che consente agli utenti di gestire e monitorare le loro risorse su AWS (Amazon Web Services), Azure e Google Cloud Platform (GCP). La piattaforma offre funzionalità come la creazione e gestione delle istanze, la visualizzazione delle metriche di utilizzo, l'ottimizzazione dei costi e la gestione delle autorizzazioni.
+With its seamless integration of multi-cloud resource management, real-time monitoring, and scalable infrastructure, That'sAllCloud simplifies cloud operations for teams and enterprises. Whether you're optimizing costs, improving resource visibility, or scaling your operations, this platform provides the tools you need to succeed in today’s dynamic cloud ecosystem.
 
-### Tecnologie Utilizzate:
-    Frontend: React.js
-    Backend: Node.js, Express.js
-    Database: MongoDB
-    Autenticazione: OAuth 2.0
-    Cloud Providers: AWS, Azure, GCP
-    Deployment: Docker, Kubernetes, Terraform
-    Monitoring: Prometheus, Grafana
+Start managing your cloud resources with confidence today!
