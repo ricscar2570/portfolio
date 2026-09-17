@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: 'en-US' }}">
+<html lang="{{ site.lang | default: 'it-IT' }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="{{ site.description }}">
-  <meta name="author" content="{{ site.author.name }}">
-  <meta name="keywords" content="portfolio, web development, data analysis, certifications">
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines }}">
+  <meta name="keywords" content="portfolio, software, cloud, data engineering, data analysis, machine learning">
   <meta property="og:title" content="{{ page.title | default: site.title }}">
-  <meta property="og:description" content="{{ page.excerpt | default: site.description }}">
-  <meta property="og:url" content="{{ page.url | relative_url }}">
+  <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:type" content="website">
   {%- seo -%}
 
@@ -21,37 +20,49 @@
   gtag('js', new Date());
   gtag('config', 'G-XDBDPNEZ1B');
   </script>
-  
+
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   {%- include head.html -%}
 </head>
 <body class="layout-splash">
+  {% if page.header %}
   <header>
-    <div class="splash-header" style="background-image: url('{{ page.header.overlay_image | relative_url }}'); filter: brightness({{ page.header.overlay_filter | default: 0.5 }});">
+    <div class="splash-header"{% if page.header.overlay_image %} style="background-image: url('{{ page.header.overlay_image | relative_url }}');"{% endif %}>
       <div class="header-caption">
         <h1>{{ page.title }}</h1>
-        <p>{{ page.header.caption }}</p>
+        {% if page.header.caption %}<div>{{ page.header.caption | markdownify }}</div>{% endif %}
+        {% if page.header.actions %}
+        <div class="header-actions">
+          {% for action in page.header.actions %}
+          <a href="{{ action.url | relative_url }}"{% if action.is_primary %} class="btn--primary"{% endif %}>{{ action.label }}</a>
+          {% endfor %}
         </div>
+        {% endif %}
       </div>
     </div>
   </header>
+  {% endif %}
 
   <main>
     <div class="splash-content">
+      {{ content }}
+
       {% if page.feature_row %}
-        <div class="features">
-          {% for feature in page.feature_row %}
-            <div class="feature">
-              <a href="{{ feature.url }}">
-                 <img src="{{ feature.image_path | relative_url }}" alt="{{ feature.alt }}">
-              </a>
-              <h2>{{ feature.title }}</h2>
-              <p class="excerpt">{{ feature.excerpt }}</p>
-              <a href="{{ feature.url }}" class="{{ feature.btn_class }}">{{ feature.btn_label }}</a>
-            </div>
-          {% endfor %}
-        </div>
+      <div class="features">
+        {% for feature in page.feature_row %}
+        <article class="feature">
+          {% if feature.image_path %}
+          <a href="{{ feature.url }}">
+            <img src="{{ feature.image_path | relative_url }}" alt="{{ feature.alt | default: feature.title }}">
+          </a>
+          {% endif %}
+          <h2>{{ feature.title }}</h2>
+          <div class="excerpt">{{ feature.excerpt }}</div>
+          {% if feature.url %}<a href="{{ feature.url }}" class="{{ feature.btn_class }}">{{ feature.btn_label | default: 'Scopri di più' }}</a>{% endif %}
+        </article>
+        {% endfor %}
+      </div>
       {% endif %}
     </div>
   </main>
