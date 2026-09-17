@@ -18,3 +18,31 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# Historical project copies are intentionally retained in Git for provenance,
+# but they are not part of the live portfolio site. Excluding them keeps Pages
+# small and prevents old README/front-matter files from becoming unintended pages.
+exclude:
+  - "2Digit"
+  - "AWS Energy Data Platform"
+  - "AWSFriendlyCounsellor"
+  - "Analisi Satellitare Terremoti"
+  - "Disaster Recover Pipeline"
+  - "Esercitazioni Sapienza"
+  - "HealthSolver"
+  - "Serverless Data Engineering Pipeline"
+  - "SimplEcomm"
+  - "Some of My Data"
+  - "TornadoPredictor"
+  - "checkFit"
+  - "happyCustomer"
+  - "myContinuousI&D"
+  - "myDataExplored"
+  - "myEcoomerce"
+  - "securApp"
+  - "thatsAllCloud"
+  - "webProof"
+  - "webproof"
+  - "archive"
+  - "Gemfile"
+  - "Gemfile.lock"
