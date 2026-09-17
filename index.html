@@ -1,21 +1,49 @@
 ---
 layout: splash
-title: "Home"
+title: "Portfolio"
 permalink: /
 ---
 
 <div class="portfolio">
-  <h1>Benvenuti nel mio Portfolio</h1>
-  <p>Esplora i miei progetti attraverso le immagini sottostanti.</p>
+  <h1>Portfolio di Riccardo Scaringi</h1>
+  <p>Una selezione curata di progetti software, cloud, data engineering e machine learning. Gli stati indicati distinguono deliberatamente sistemi in sviluppo, prototipi e case study formativi.</p>
+
+  <h2>Progetti selezionati</h2>
   <div class="projects">
-    {% for project in site.data.projects %}
-    <div class="project">
-      <a href="{{ project.url }}">
-        <img src="{{ project.image }}" alt="{{ project.name }}">
-        <h2>{{ project.name }}</h2>
-      </a>
+    {% assign featured_projects = site.data.projects | where: "section", "featured" %}
+    {% for project in featured_projects %}
+    <article class="project">
+      <p><strong>{{ project.category }}</strong> · {{ project.status }}</p>
+      <h3><a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">{{ project.name }}</a></h3>
       <p>{{ project.description }}</p>
-    </div>
+    </article>
     {% endfor %}
   </div>
+
+  <h2>Case study di Data Analytics e Machine Learning</h2>
+  <div class="projects">
+    {% assign case_studies = site.data.projects | where: "section", "case-study" %}
+    {% for project in case_studies %}
+    <article class="project">
+      <p><strong>{{ project.category }}</strong> · {{ project.status }}</p>
+      <h3><a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">{{ project.name }}</a></h3>
+      <p>{{ project.description }}</p>
+    </article>
+    {% endfor %}
+  </div>
+
+  <h2>Formazione e progetti di apprendimento</h2>
+  <div class="projects">
+    {% assign learning_projects = site.data.projects | where: "section", "learning" %}
+    {% for project in learning_projects %}
+    <article class="project">
+      <p><strong>{{ project.category }}</strong> · {{ project.status }}</p>
+      <h3><a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">{{ project.name }}</a></h3>
+      <p>{{ project.description }}</p>
+    </article>
+    {% endfor %}
+  </div>
+
+  <hr>
+  <p><small>Nota di trasparenza: il portfolio non presenta automaticamente ogni repository GitHub come progetto produttivo. Repository di corso, reference, prototipi incompleti e archivi storici vengono separati dai progetti selezionati.</small></p>
 </div>
